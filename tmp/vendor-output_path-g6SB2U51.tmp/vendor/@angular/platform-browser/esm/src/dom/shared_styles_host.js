@@ -1,0 +1,5 @@
+XSym
+0163
+81cf186945c6bc294c2dc74d9dc7277a
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/platform-browser/esm/src/dom/shared_styles_host.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

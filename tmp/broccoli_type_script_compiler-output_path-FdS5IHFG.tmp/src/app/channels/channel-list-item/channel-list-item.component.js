@@ -1,0 +1,5 @@
+XSym
+0200
+d058e9394d49acac7543b5475cf84865
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/broccoli_type_script_compiler-cache_path-KEumN0pe.tmp/src/app/channels/channel-list-item/channel-list-item.component.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

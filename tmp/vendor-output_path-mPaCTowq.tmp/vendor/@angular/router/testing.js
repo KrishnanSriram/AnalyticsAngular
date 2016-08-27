@@ -1,0 +1,5 @@
+XSym
+0130
+4dff6b139f9012e65b215058e976e6fb
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/router/testing.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

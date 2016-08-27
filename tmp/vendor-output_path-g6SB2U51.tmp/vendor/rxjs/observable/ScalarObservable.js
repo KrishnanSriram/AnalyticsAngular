@@ -1,0 +1,5 @@
+XSym
+0139
+9a63114516510622bfa6e4ed773d6018
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/rxjs/observable/ScalarObservable.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

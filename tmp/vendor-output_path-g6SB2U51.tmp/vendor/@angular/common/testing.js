@@ -1,0 +1,5 @@
+XSym
+0130
+c9be48cc4afef8c99776b2c89a9c5978
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/common/testing.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

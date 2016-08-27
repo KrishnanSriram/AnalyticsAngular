@@ -1,0 +1,5 @@
+XSym
+0138
+b1f9087ab4009dd05d9706661e2e05bc
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/router/esm/src/resolve.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

@@ -1,0 +1,5 @@
+XSym
+0177
+33c06f18a73f730930ea1416d2c1100b
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/broccoli_type_script_compiler-cache_path-OnW8oHaX.tmp/src/app/shared/feature-header/feature-header.component.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

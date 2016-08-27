@@ -1,0 +1,5 @@
+XSym
+0142
+db3a54633258346a03a4ed055b0b4ac5
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/http/src/facade/collection.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

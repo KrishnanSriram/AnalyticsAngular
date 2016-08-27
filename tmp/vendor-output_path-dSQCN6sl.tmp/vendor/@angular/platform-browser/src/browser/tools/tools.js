@@ -1,0 +1,5 @@
+XSym
+0168
+62c1ebb81d411181be972bef55ebbb08
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/platform-browser/src/browser/tools/tools.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

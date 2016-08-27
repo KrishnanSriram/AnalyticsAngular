@@ -1,0 +1,5 @@
+XSym
+0174
+58df467c86640c36b36785547548947e
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/platform-browser/src/web_workers/worker/event_deserializer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

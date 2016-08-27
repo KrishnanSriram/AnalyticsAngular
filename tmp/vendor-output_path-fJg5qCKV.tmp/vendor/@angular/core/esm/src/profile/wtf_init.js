@@ -1,0 +1,5 @@
+XSym
+0145
+146d23c791a670c976cdc2c2b58ed8fe
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/core/esm/src/profile/wtf_init.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

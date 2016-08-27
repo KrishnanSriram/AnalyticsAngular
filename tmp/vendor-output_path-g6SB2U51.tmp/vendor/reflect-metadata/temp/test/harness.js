@@ -1,0 +1,5 @@
+XSym
+0141
+9b71ec3c0083b087aef7e1dfb7bf40d2
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/reflect-metadata/temp/test/harness.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

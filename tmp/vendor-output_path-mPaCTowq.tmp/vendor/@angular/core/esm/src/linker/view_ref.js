@@ -1,0 +1,5 @@
+XSym
+0144
+d54e3c270c21a1eb32d7fa387c201add
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/core/esm/src/linker/view_ref.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

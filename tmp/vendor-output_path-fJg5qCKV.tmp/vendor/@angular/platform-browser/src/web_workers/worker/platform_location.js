@@ -1,0 +1,5 @@
+XSym
+0173
+1c542341cf0d29224fa7a129f084039a
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/platform-browser/src/web_workers/worker/platform_location.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

@@ -1,0 +1,5 @@
+XSym
+0179
+c3893b3fc0cea795fe9b6aed128d54fd
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/broccoli_type_script_compiler-cache_path-KEumN0pe.tmp/src/app/channels/services/channel.service.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

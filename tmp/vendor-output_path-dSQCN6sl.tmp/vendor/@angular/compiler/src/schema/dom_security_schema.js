@@ -1,0 +1,5 @@
+XSym
+0167
+d867a269f2731a339a76ae51b1087465
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/compiler/src/schema/dom_security_schema.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

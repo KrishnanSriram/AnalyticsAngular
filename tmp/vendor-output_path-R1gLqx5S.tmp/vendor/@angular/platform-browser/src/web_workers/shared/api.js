@@ -1,0 +1,5 @@
+XSym
+0171
+a5724d6cfddd04dd94b0d3f7a7aa875a
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/platform-browser/src/web_workers/shared/api.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

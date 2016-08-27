@@ -1,0 +1,5 @@
+XSym
+0147
+afe8259eeb2e2fce508c28bc77f91a4e
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/compiler/src/config.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

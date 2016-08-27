@@ -1,0 +1,5 @@
+XSym
+0158
+4a4efa927541b51d50071b14f32898af
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/http/esm/src/facade/collection.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

@@ -1,0 +1,5 @@
+XSym
+0154
+45d113aea6ce8848884c9149a5dbb79b
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/core/src/facade/base_wrapped_exception.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

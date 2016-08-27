@@ -1,0 +1,5 @@
+XSym
+0149
+1eea1881345ce42a918b92bf232f3493
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/compiler/src/ml_parser/xml_parser.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

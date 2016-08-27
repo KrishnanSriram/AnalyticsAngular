@@ -1,0 +1,5 @@
+XSym
+0174
+8d863ed00438f61386ed6eab5d0589c3
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/platform-browser/esm/src/security/dom_sanitization_service.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

@@ -1,0 +1,5 @@
+XSym
+0157
+9f20f2a5c83984da24edd9931987631e
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/http/src/backends/xhr_backend.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

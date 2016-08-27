@@ -1,0 +1,5 @@
+XSym
+0161
+087e5aa9c22c2dcb319af40b6e3e4a7f
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/platform-browser/esm/src/dom/animation_driver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

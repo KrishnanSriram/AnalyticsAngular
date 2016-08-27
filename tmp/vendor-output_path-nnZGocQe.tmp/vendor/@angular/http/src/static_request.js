@@ -1,0 +1,5 @@
+XSym
+0140
+498a95eb44ef8303f76ca70eb01f4cce
+/Users/krishnansriramrama/PrivateProjects/Angular2/IBMPAWebApp/tmp/vendor-input_base_path-EAHLqzKT.tmp/0/@angular/http/src/static_request.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

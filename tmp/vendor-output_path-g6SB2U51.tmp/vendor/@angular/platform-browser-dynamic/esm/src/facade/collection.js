@@ -1,0 +1,5 @@
+XSym
+0166
+d57dd9be71c07a6427d550ee86199f0b
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/platform-browser-dynamic/esm/src/facade/collection.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

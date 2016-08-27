@@ -1,0 +1,5 @@
+XSym
+0143
+33df25a7302636659f987e48b100a467
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/core/esm/src/di/forward_ref.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

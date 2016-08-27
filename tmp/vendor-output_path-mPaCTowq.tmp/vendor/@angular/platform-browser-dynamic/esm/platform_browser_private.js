@@ -1,0 +1,5 @@
+XSym
+0169
+92317fe3ded62d471b70c3a936e2cf4e
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/platform-browser-dynamic/esm/platform_browser_private.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

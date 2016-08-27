@@ -1,0 +1,5 @@
+XSym
+0146
+1803d490d0cb8d20e90266ac3f1ad1c9
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/router/esm/src/apply_redirects.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

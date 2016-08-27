@@ -1,0 +1,5 @@
+XSym
+0142
+ff5c0a7a6f595e977ae420a02e2f7cf7
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/http/src/enums.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

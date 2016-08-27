@@ -1,0 +1,5 @@
+XSym
+0163
+1cfca041a175b793c2cc8c92f40251a1
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/broccoli_type_script_compiler-cache_path-OnW8oHaX.tmp/src/app/shared/toolbar/toolbar.component.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

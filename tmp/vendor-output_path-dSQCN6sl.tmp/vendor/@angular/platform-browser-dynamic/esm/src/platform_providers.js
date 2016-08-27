@@ -1,0 +1,5 @@
+XSym
+0179
+278c310dace9ccfa2b627ab3d3288c89
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/platform-browser-dynamic/esm/src/platform_providers.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

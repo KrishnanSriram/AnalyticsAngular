@@ -1,0 +1,5 @@
+XSym
+0141
+11eb24840a5f6a7869e65d2dd4e8a39f
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/common/esm/src/directives.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

@@ -1,0 +1,5 @@
+XSym
+0160
+0599efb7123dfdaccf91b441ba8398f2
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/core/esm/src/linker/template_ref.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

@@ -1,0 +1,5 @@
+XSym
+0131
+9b44ff3d1c43c5b06809e659b8ce5277
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/rxjs/add/operator/single.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

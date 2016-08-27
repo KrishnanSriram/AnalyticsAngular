@@ -1,0 +1,5 @@
+XSym
+0161
+a426d144b8e91065267863c1618c6af5
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/compiler/esm/src/i18n/serializers/placeholder.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

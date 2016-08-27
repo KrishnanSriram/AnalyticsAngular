@@ -1,0 +1,5 @@
+XSym
+0137
+82f6802252659c31c1cdb2c2fc54cfad
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/core/esm/src/metadata.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

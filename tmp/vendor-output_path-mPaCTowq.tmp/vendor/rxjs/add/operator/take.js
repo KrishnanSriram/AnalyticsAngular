@@ -1,0 +1,5 @@
+XSym
+0129
+25d8b36d69dcb73477f9672729a8027b
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/rxjs/add/operator/take.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

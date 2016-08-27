@@ -1,0 +1,5 @@
+XSym
+0146
+058b9cdf24bfe6ca09d06d07e263f24d
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/core/testing/component_fixture.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

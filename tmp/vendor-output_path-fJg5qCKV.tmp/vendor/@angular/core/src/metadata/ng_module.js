@@ -1,0 +1,5 @@
+XSym
+0143
+d122382c6ca9d949ba105fdbf708753c
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/core/src/metadata/ng_module.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

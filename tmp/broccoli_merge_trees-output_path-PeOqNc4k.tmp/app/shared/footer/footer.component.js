@@ -1,0 +1,5 @@
+XSym
+0161
+79250c1018a2ab39eff2d8203ab9dad6
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/broccoli_type_script_compiler-cache_path-UQj2Mco2.tmp/src/app/shared/footer/footer.component.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

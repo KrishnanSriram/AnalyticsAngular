@@ -1,0 +1,5 @@
+XSym
+0164
+108993aa6e92b97722846b6d57369bd3
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/platform-browser/src/web_workers/worker/renderer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -1,0 +1,5 @@
+XSym
+0133
+3960d5c5fdf359d6c3304ce2854f825e
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/rxjs/add/operator/takeLast.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

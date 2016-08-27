@@ -1,0 +1,5 @@
+XSym
+0130
+718a127742c9536c14ee0bc353c8d14d
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/rxjs/operator/switchMap.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

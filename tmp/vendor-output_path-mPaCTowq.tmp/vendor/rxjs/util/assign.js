@@ -1,0 +1,5 @@
+XSym
+0123
+0b0466c774c8e31eedfe8f44ebeff2be
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/rxjs/util/assign.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

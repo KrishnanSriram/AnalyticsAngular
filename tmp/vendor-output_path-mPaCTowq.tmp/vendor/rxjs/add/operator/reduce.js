@@ -1,0 +1,5 @@
+XSym
+0131
+cde78460331b0cee91d9ddc6bbcf8e2e
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/rxjs/add/operator/reduce.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

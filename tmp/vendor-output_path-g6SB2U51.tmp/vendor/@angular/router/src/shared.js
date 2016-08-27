@@ -1,0 +1,5 @@
+XSym
+0133
+5a893e9dddfc0a1400a6e49fa6b65651
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/router/src/shared.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

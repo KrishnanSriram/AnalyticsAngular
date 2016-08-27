@@ -1,0 +1,5 @@
+XSym
+0162
+71a672dd4b5045352894550a5bd780f7
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/vendor-input_base_path-dsBBlfYq.tmp/0/@angular/http/src/backends/jsonp_backend.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

@@ -1,0 +1,5 @@
+XSym
+0143
+ff4040210126955d26232cdce1b4b3f1
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/core/src/application_tokens.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

@@ -1,0 +1,5 @@
+XSym
+0168
+3417cbfaf7d0c408d1f7c484e1d9f21a
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/compiler/testing/directive_resolver_mock.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

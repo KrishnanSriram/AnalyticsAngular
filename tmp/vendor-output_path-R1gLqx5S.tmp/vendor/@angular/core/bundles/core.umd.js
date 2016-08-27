@@ -1,0 +1,5 @@
+XSym
+0149
+d557c99ba736dd2e663537efbd8d2063
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/core/bundles/core.umd.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

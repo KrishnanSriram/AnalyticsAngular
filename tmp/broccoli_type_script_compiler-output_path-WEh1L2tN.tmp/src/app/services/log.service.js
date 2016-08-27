@@ -1,0 +1,5 @@
+XSym
+0151
+cb7e543ba1ad365f63ee40e6ee11ffb1
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/broccoli_type_script_compiler-cache_path-UQj2Mco2.tmp/src/app/services/log.service.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

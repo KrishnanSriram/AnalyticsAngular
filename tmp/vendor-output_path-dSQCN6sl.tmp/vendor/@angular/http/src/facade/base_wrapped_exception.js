@@ -1,0 +1,5 @@
+XSym
+0166
+9bcde1e2bea76ff2931d3d04d3b54709
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/http/src/facade/base_wrapped_exception.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

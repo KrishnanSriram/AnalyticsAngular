@@ -1,0 +1,5 @@
+XSym
+0156
+21eb4ca4d5909a16d3eae12d48f3f56e
+/Users/krishnansriramrama/PrivateProjects/Angular2/IBMPAWebApp/tmp/broccoli_type_script_compiler-cache_path-7zCcbq4g.tmp/src/app/channels/channels.module.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

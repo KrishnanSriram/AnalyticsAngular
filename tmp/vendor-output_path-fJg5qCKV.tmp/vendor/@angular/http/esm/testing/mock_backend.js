@@ -1,0 +1,5 @@
+XSym
+0145
+719b819eb1e719d669ba760ddfcf5e3e
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/http/esm/testing/mock_backend.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

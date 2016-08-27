@@ -1,0 +1,5 @@
+XSym
+0158
+2e7d68ff8cdb5f4115f2cb94437655f4
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/http/src/base_response_options.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

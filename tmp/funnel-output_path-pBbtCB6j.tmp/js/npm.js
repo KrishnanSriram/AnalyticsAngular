@@ -1,0 +1,5 @@
+XSym
+0117
+ce76cd31d1f9713714277e5ddc4be865
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/funnel-input_base_path-aLfAA4ez.tmp/0/src/js/npm.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

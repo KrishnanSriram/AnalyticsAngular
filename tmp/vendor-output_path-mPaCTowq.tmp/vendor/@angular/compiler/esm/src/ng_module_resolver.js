@@ -1,0 +1,5 @@
+XSym
+0151
+ccf117f01865474ae8b016d8c5b392fa
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/compiler/esm/src/ng_module_resolver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

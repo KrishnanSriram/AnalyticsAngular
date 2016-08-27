@@ -1,0 +1,5 @@
+XSym
+0158
+31fe6ba6ead6bde5cd0652a0465a1bd0
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/broccoli_type_script_compiler-cache_path-UQj2Mco2.tmp/src/app/channels/channel-list/index.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

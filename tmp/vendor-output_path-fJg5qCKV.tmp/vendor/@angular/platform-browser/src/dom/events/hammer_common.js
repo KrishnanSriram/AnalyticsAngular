@@ -1,0 +1,5 @@
+XSym
+0161
+642dcad01a43025f86b6386e7fb333da
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/platform-browser/src/dom/events/hammer_common.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

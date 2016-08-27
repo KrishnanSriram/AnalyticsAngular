@@ -1,0 +1,5 @@
+XSym
+0160
+1ee24f9478fd7a73e7924eedbaa65619
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/esm/testing/directive_resolver_mock.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

@@ -1,0 +1,5 @@
+XSym
+0166
+ec5d70d9224ed8907d3ca3d71b134c71
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/platform-browser/esm/src/dom/web_animations_driver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

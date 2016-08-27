@@ -1,0 +1,5 @@
+XSym
+0169
+90d5207edd038e2da6f53300a8640131
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/platform-browser/src/dom/animation_driver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

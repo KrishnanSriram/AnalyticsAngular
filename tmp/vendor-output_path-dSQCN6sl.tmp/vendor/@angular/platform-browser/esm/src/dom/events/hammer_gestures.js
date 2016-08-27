@@ -1,0 +1,5 @@
+XSym
+0179
+845f2294c89e194d3c9448734eb2373e
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/platform-browser/esm/src/dom/events/hammer_gestures.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

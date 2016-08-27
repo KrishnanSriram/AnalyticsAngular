@@ -1,0 +1,5 @@
+XSym
+0147
+e751bc249ae0058d3035cd9090cf6d3b
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/http/src/backends/browser_jsonp.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

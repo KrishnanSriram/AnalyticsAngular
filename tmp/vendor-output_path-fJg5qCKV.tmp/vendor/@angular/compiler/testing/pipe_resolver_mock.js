@@ -1,0 +1,5 @@
+XSym
+0151
+d91d32b18ed88d77c68ad44c93c7ecfa
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/testing/pipe_resolver_mock.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

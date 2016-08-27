@@ -1,0 +1,5 @@
+XSym
+0134
+d53dde6ac25219c1b8c9d19cabacd2a4
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/rxjs/add/operator/switchMap.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

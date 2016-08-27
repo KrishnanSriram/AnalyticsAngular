@@ -1,0 +1,5 @@
+XSym
+0149
+a439bbf86fcdd1c434ca165aec66dd60
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/http/esm/src/base_request_options.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

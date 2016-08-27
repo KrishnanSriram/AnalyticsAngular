@@ -1,0 +1,5 @@
+XSym
+0160
+62c4771e8bd7fbf0e31e515b96a8728f
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/core/src/linker/element_injector.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

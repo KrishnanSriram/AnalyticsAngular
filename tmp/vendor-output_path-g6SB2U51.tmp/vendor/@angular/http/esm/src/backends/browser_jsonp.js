@@ -1,0 +1,5 @@
+XSym
+0151
+6ce3eac94a90fed46339cda70dfae95f
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/http/esm/src/backends/browser_jsonp.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

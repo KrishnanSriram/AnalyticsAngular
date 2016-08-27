@@ -1,0 +1,5 @@
+XSym
+0144
+3d376c9aa11690d13b5b04ad75872447
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/core/esm/src/profile/profile.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

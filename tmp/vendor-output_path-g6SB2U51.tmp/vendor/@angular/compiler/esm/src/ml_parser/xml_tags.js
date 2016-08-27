@@ -1,0 +1,5 @@
+XSym
+0151
+90cc385fa4e84c6b2cc2fbfb7e2de644
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/compiler/esm/src/ml_parser/xml_tags.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

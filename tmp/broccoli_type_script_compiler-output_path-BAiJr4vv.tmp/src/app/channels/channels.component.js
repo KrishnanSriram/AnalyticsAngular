@@ -1,0 +1,5 @@
+XSym
+0170
+bb50c8e5468b05e778de2715bd39a495
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/broccoli_type_script_compiler-cache_path-R5NIhkwC.tmp/src/app/channels/channels.component.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

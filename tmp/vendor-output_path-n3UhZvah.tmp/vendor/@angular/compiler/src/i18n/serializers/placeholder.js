@@ -1,0 +1,5 @@
+XSym
+0172
+0489d96f4436ea80000a7e08a0279d6d
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/vendor-input_base_path-dsBBlfYq.tmp/0/@angular/compiler/src/i18n/serializers/placeholder.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

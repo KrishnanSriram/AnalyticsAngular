@@ -1,0 +1,5 @@
+XSym
+0156
+17c7a0f27f1d0d2130445ed8c702fa61
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/platform-browser/src/browser/testability.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

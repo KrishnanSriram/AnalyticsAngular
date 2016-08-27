@@ -1,0 +1,5 @@
+XSym
+0138
+0d6989ca2e8dc54ab7d6c1779890ce01
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/reflect-metadata/typings/node.d.ts
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

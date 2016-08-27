@@ -1,0 +1,5 @@
+XSym
+0163
+507366f621c4d4edc751f720fcf0e825
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/core/esm/src/linker/systemjs_component_resolver.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

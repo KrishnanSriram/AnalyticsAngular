@@ -1,0 +1,5 @@
+XSym
+0160
+58fa452f1e9f3fc6b22bfd6114664fcf
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/broccoli_type_script_compiler-cache_path-KEumN0pe.tmp/src/app/channels/index.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

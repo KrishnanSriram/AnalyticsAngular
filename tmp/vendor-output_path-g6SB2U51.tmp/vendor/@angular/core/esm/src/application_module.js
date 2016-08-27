@@ -1,0 +1,5 @@
+XSym
+0147
+bf37fbdfc4f93ce45357c6e938acf802
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/core/esm/src/application_module.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

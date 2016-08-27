@@ -1,0 +1,5 @@
+XSym
+0160
+9de25f1bee5303728b8d4502fb1ff27c
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/src/template_parser/template_parser.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

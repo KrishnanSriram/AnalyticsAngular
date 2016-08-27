@@ -1,0 +1,5 @@
+XSym
+0157
+d831ce1acb4b4859c16790b646bab6f0
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/esm/testing/schema_registry_mock.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

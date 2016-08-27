@@ -1,0 +1,5 @@
+XSym
+0143
+fca43745041e0735744c1a32ddc95a49
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/rxjs/observable/dom/WebSocketSubject.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

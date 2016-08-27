@@ -1,0 +1,5 @@
+XSym
+0125
+5a06b065cc34eb368bda4ceacbfab24d
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/rxjs/observable/of.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

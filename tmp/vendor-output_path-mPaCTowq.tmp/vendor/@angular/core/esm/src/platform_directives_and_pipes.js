@@ -1,0 +1,5 @@
+XSym
+0158
+eb3b751f3c83084450ae9e87bddaaa79
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/core/esm/src/platform_directives_and_pipes.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

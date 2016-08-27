@@ -1,0 +1,5 @@
+XSym
+0168
+eea15889e6d2d6d5a95f0d70a856e36e
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/platform-browser/src/web_workers/ui/event_serializer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

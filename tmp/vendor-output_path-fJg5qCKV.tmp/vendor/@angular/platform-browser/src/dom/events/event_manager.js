@@ -1,0 +1,5 @@
+XSym
+0161
+64b5a8cc5cfc7ec528b493258044e638
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/platform-browser/src/dom/events/event_manager.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

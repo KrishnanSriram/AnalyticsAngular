@@ -1,0 +1,5 @@
+XSym
+0181
+cd0e1fe773e54b7e272d643a156435f1
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/platform-browser-dynamic/esm/platform_browser_private.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

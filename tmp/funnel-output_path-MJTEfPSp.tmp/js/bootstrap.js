@@ -1,0 +1,5 @@
+XSym
+0123
+f0b3220634dbb95c32eaa2019a8df80d
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/funnel-input_base_path-HmBNyWFT.tmp/0/src/js/bootstrap.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

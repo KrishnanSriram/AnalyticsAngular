@@ -1,0 +1,5 @@
+XSym
+0163
+8ebc7dd385373d1b418d50080f01cd6f
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/http/esm/src/backends/jsonp_backend.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

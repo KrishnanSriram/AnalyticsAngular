@@ -1,0 +1,5 @@
+XSym
+0156
+d370e1b845e1bff1b16dce07346f44df
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/testing/ng_module_resolver_mock.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

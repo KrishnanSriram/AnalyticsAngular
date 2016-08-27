@@ -1,0 +1,5 @@
+XSym
+0148
+9007d2dd9e6d7d7296527caca00b5c36
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/http/esm/src/headers.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

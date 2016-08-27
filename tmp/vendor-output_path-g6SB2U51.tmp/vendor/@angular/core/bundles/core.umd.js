@@ -1,0 +1,5 @@
+XSym
+0137
+1e29f30b72658f44fef41f06cbfd1c03
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/core/bundles/core.umd.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

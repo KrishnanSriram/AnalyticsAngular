@@ -1,0 +1,5 @@
+XSym
+0167
+16377c5dff0ee7877387b2dd91e43e8a
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/platform-browser/esm/src/dom/dom_tokens.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

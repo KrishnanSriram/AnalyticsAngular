@@ -1,0 +1,5 @@
+XSym
+0136
+8fb255944537dd1f6ee9fb93684b91a9
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/reflect-metadata/test/harness.ts
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

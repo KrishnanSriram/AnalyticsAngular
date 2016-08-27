@@ -1,0 +1,5 @@
+XSym
+0178
+b0a1a48dd307ad1ae985bfe84e872e94
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/platform-browser/src/web_workers/shared/serializer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

@@ -1,0 +1,5 @@
+XSym
+0182
+e6c83da839d68de01c3777574dde4e09
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/vendor-input_base_path-dsBBlfYq.tmp/0/@angular/platform-browser/esm/src/dom/events/hammer_gestures.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

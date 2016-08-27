@@ -1,0 +1,5 @@
+XSym
+0152
+087dd890db270b20f70144d1f054a9a4
+/Users/krishnansriramrama/PrivateProjects/Angular2/IBMPAWebApp/tmp/vendor-input_base_path-EAHLqzKT.tmp/0/@angular/compiler/esm/src/ml_parser/xml_tags.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

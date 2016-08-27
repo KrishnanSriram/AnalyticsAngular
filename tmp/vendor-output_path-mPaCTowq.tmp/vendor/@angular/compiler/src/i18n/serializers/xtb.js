@@ -1,0 +1,5 @@
+XSym
+0149
+4e245f0edbc848b9a57be3804e9e45fd
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/compiler/src/i18n/serializers/xtb.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

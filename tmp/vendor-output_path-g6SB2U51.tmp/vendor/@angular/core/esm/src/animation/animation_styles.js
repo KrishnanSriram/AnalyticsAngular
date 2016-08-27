@@ -1,0 +1,5 @@
+XSym
+0155
+08aba0a6ce5c3822ce9a20a7a871de65
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/core/esm/src/animation/animation_styles.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

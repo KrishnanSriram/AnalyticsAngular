@@ -1,0 +1,5 @@
+XSym
+0159
+b3364aee6e5b1c8ea05e1cb0f8f2419e
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/reflect-metadata/test/reflect/reflect-hasownmetadata.ts
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

@@ -1,0 +1,5 @@
+XSym
+0167
+e1d9f4bfe4f975c11aa3c69fc0807f76
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/platform-browser/esm/src/browser/tools/common_tools.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

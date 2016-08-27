@@ -1,0 +1,5 @@
+XSym
+0124
+59293f71d76fbbb1416aff7084c942b7
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/es6-shim/es6-shim.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

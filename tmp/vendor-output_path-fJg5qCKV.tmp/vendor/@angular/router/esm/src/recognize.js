@@ -1,0 +1,5 @@
+XSym
+0140
+0a001bb28c5570f4d2842f9afd6b3945
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/router/esm/src/recognize.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

@@ -1,0 +1,5 @@
+XSym
+0156
+b7aadd5d46f9c1e69b4e530965896d06
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/router/src/directives/router_link_active.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

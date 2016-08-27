@@ -1,0 +1,5 @@
+XSym
+0132
+a978ee9c997d18616f104621ef70d25f
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/rxjs/observable/fromEvent.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

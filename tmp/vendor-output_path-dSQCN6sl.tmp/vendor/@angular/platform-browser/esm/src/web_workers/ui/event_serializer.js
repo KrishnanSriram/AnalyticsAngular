@@ -1,0 +1,5 @@
+XSym
+0184
+afe3804aa9f875d2133c84bea663ecd7
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/platform-browser/esm/src/web_workers/ui/event_serializer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

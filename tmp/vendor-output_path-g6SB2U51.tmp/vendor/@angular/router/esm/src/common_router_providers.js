@@ -1,0 +1,5 @@
+XSym
+0154
+c86a81a6a570bc4c88d40f2a8c56b157
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/router/esm/src/common_router_providers.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

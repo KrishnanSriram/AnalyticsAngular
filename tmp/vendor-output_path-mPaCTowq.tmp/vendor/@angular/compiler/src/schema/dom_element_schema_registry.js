@@ -1,0 +1,5 @@
+XSym
+0163
+5668114bf400b2de003a5c1872476101
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/compiler/src/schema/dom_element_schema_registry.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

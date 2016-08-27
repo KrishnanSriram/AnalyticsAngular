@@ -1,0 +1,5 @@
+XSym
+0159
+699c3a7dbf06f04d75771872426df405
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/core/esm/src/application_tokens.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

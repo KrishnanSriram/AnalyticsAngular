@@ -1,0 +1,5 @@
+XSym
+0163
+ecf083364e5856bc195fc405c80c8adf
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/src/schema/dom_element_schema_registry.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

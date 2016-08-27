@@ -1,0 +1,5 @@
+XSym
+0160
+4d4d94cbc629bf5c894adab7889f82c9
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/compiler/esm/src/i18n/serializers/serializer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

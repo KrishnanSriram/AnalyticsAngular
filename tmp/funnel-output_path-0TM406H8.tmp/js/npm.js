@@ -1,0 +1,5 @@
+XSym
+0129
+b5baf333b8c55063c8f43bf249cb127d
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/funnel-input_base_path-OkAQciCO.tmp/0/src/js/npm.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

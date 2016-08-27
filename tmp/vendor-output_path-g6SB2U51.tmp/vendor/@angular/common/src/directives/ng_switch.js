@@ -1,0 +1,5 @@
+XSym
+0147
+41d4a3ad8719919de549cad55675274f
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/common/src/directives/ng_switch.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

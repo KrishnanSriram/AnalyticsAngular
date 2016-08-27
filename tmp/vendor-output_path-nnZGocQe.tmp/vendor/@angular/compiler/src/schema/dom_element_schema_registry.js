@@ -1,0 +1,5 @@
+XSym
+0164
+f0dc4a04547c5122aef633217d0796fd
+/Users/krishnansriramrama/PrivateProjects/Angular2/IBMPAWebApp/tmp/vendor-input_base_path-EAHLqzKT.tmp/0/@angular/compiler/src/schema/dom_element_schema_registry.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

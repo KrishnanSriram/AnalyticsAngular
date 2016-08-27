@@ -1,0 +1,5 @@
+XSym
+0161
+973370f2ab11bb51f92aec1594f20665
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/platform-browser-dynamic/esm/src/xhr/xhr_impl.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

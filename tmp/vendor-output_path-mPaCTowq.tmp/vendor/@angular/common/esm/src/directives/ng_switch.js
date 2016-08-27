@@ -1,0 +1,5 @@
+XSym
+0151
+7b02241c343b064b98f8e3079abbf1c7
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/common/esm/src/directives/ng_switch.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

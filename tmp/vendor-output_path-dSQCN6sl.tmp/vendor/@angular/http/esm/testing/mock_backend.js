@@ -1,0 +1,5 @@
+XSym
+0157
+00831ce5b76dec8a942474fc1a46d5fe
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/http/esm/testing/mock_backend.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

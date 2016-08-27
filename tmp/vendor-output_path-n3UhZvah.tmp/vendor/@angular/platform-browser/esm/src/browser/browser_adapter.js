@@ -1,0 +1,5 @@
+XSym
+0179
+82f75e18fd6ab971150a4657a53eade1
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/vendor-input_base_path-dsBBlfYq.tmp/0/@angular/platform-browser/esm/src/browser/browser_adapter.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

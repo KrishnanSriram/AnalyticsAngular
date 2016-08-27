@@ -1,0 +1,5 @@
+XSym
+0159
+2634e88eb004ff46f7efd5c1d2293b02
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/reflect-metadata/test/reflect/reflect-getownmetadata.ts
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

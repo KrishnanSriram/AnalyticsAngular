@@ -1,0 +1,5 @@
+XSym
+0164
+01f6cd60daff50cbd8270e3af5a0a8c0
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/compiler/esm/src/ml_parser/html_tags.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

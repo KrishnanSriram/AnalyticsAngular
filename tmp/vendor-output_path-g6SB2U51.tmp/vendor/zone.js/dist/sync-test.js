@@ -1,0 +1,5 @@
+XSym
+0129
+a4c4f2af950cee9199f5e8b083a2e28d
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/zone.js/dist/sync-test.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

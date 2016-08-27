@@ -1,0 +1,5 @@
+XSym
+0156
+618dae7c6bcc1c2d0c4c64e0b7b9140c
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/esm/src/output/abstract_emitter.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

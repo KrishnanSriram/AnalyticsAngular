@@ -1,0 +1,5 @@
+XSym
+0151
+a19bc134d1a4a8a708bd9a87668cbc73
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/core/testing/test_component_builder.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

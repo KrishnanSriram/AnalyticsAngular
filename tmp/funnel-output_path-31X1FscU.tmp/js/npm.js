@@ -1,0 +1,5 @@
+XSym
+0118
+af664b8807d1863f9ddc86a73fd09c9e
+/Users/krishnansriramrama/PrivateProjects/Angular2/IBMPAWebApp/tmp/funnel-input_base_path-l6N1RLgg.tmp/0/src/js/npm.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

@@ -1,0 +1,5 @@
+XSym
+0177
+79bfee39eccb4d7364889ad2e6b6969a
+/Users/krishnansriramrama/Projects/personal_analytics/Web/WebApp/IBMPAWebApp/tmp/vendor-input_base_path-dsBBlfYq.tmp/0/@angular/platform-browser/esm/src/dom/events/dom_events.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

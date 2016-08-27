@@ -1,0 +1,5 @@
+XSym
+0172
+20dcd3d7d34a78bfa26534a5b5c7e9f0
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/platform-browser/src/web_workers/shared/serialized_types.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

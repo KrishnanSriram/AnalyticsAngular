@@ -1,0 +1,5 @@
+XSym
+0164
+5b5eaa0f2c8a77a631a6db28d7d5e5ba
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/core/esm/src/linker/element_injector.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

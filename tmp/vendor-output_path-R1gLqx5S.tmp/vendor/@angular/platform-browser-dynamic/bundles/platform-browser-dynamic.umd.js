@@ -1,0 +1,5 @@
+XSym
+0189
+19eee80e545238dbe9e2c4a37bcb5035
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-LHgoYGKe.tmp/0/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

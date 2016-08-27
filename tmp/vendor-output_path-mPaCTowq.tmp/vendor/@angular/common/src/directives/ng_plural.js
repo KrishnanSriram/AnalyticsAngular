@@ -1,0 +1,5 @@
+XSym
+0147
+8258b8e1895652ac1303d5f78570a161
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/common/src/directives/ng_plural.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

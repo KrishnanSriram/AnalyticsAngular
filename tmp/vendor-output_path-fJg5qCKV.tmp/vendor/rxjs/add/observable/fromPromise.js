@@ -1,0 +1,5 @@
+XSym
+0138
+d52ee3c3b179b36f6fb47a58b8768fa0
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/rxjs/add/observable/fromPromise.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

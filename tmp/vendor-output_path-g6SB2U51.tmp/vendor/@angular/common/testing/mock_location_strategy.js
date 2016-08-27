@@ -1,0 +1,5 @@
+XSym
+0153
+e3afe160a2a0b73de386d544d63df589
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/common/testing/mock_location_strategy.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,0 +1,5 @@
+XSym
+0148
+1c99abea67fdc4a6ee49bf6b90ff8990
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/core/src/linker/element_injector.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -1,0 +1,5 @@
+XSym
+0168
+426b084a6fef8509dfbb5087c3076815
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/router/src/directives/router_link_active.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

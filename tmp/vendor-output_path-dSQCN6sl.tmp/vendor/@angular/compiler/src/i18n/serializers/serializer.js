@@ -1,0 +1,5 @@
+XSym
+0168
+c96fa9d214266ffaa780fd9489ca5100
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-BzYjbart.tmp/0/@angular/compiler/src/i18n/serializers/serializer.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

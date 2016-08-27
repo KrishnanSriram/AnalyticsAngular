@@ -1,0 +1,5 @@
+XSym
+0157
+b03a7388d604ec08a1cf9c1cfefaa0d0
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/compiler/src/template_parser/template_ast.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

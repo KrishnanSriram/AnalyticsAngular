@@ -1,0 +1,5 @@
+XSym
+0167
+2cff56b385e193c0fe1edd1604a62d0c
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/platform-browser/src/web_workers/shared/message_bus.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

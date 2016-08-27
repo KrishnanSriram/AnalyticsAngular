@@ -1,0 +1,5 @@
+XSym
+0166
+5b208f75fce56bf55e3c954ffc6affc3
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/broccoli_type_script_compiler-cache_path-HAAbQvKc.tmp/src/app/shared/navbar/navbar.component.spec.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

@@ -1,0 +1,5 @@
+XSym
+0140
+d4ef84194dacc1e64c2de15b3dbb4d85
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XEGIbXCr.tmp/0/@angular/core/src/di/opaque_token.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

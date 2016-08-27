@@ -1,0 +1,5 @@
+XSym
+0129
+564978784826f645a0c8ce5a2bc3af23
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/zone.js/dist/sync-test.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

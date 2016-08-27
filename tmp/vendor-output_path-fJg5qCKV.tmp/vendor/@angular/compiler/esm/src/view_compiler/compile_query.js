@@ -1,0 +1,5 @@
+XSym
+0160
+e9ac1a2d3f1366e7cc0bac6dd889dc0b
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/compiler/esm/src/view_compiler/compile_query.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

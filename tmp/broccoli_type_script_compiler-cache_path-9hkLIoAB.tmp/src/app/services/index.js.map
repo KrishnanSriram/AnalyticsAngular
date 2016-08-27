@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../home/krishnan/Projects/Angular2/HelloWorld/tmp/broccoli_type_script_compiler-input_base_path-8VRpC1TS.tmp/0/src/app/services/index.ts"],"names":[],"mappings":";;;;AAAA;;GAEG;AACH,iBAAc,eAAe,CAAC,EAAA","sourcesContent":["/**\n * Created by krishnan on 8/18/16.\n */\nexport * from './log.service';\n"]}

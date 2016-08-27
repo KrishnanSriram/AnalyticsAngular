@@ -1,0 +1,5 @@
+XSym
+0159
+83734a1cd65869b5515bc87f7494f1ab
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/compiler/esm/src/schema/dom_security_schema.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

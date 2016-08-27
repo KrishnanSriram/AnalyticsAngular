@@ -1,0 +1,5 @@
+XSym
+0131
+81705f0d4eab7dd4b00ce2bba1274099
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/systemjs/dist/system.src.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

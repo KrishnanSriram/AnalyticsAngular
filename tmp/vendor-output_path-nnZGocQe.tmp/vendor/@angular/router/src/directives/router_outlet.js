@@ -1,0 +1,5 @@
+XSym
+0152
+9bc97eaa7d7f49a8ea930d12b753417c
+/Users/krishnansriramrama/PrivateProjects/Angular2/IBMPAWebApp/tmp/vendor-input_base_path-EAHLqzKT.tmp/0/@angular/router/src/directives/router_outlet.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

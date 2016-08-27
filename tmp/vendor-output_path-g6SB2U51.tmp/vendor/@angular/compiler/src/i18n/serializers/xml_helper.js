@@ -1,0 +1,5 @@
+XSym
+0156
+d95d8ead49a6c57d1bfece1a33150ef8
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/compiler/src/i18n/serializers/xml_helper.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

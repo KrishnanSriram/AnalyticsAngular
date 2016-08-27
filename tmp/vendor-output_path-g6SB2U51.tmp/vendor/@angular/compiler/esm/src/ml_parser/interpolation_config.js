@@ -1,0 +1,5 @@
+XSym
+0163
+8bf21a062dd25ed8681ad5b6cfecf953
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/compiler/esm/src/ml_parser/interpolation_config.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

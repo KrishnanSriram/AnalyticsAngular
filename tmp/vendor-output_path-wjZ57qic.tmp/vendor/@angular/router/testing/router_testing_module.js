@@ -1,0 +1,5 @@
+XSym
+0164
+4c1eba95fb8386e77ae68993d443dbb2
+/Users/krishnansriramrama/PrivateProjects/Angular2/personal_analytics_web/tmp/vendor-input_base_path-CBDJIsv4.tmp/0/@angular/router/testing/router_testing_module.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

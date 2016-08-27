@@ -1,0 +1,5 @@
+XSym
+0161
+f3e1f2fa35c6ab25392a2353e4ba6d7c
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/@angular/platform-browser/bundles/platform-browser.umd.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

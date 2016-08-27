@@ -1,0 +1,5 @@
+XSym
+0123
+fb32be4bca7462f4a765083fec4d97c3
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/zone.js/dist/wtf.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

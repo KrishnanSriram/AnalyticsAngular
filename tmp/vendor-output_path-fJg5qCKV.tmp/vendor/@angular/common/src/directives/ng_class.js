@@ -1,0 +1,5 @@
+XSym
+0146
+5bf67a1c2a9f020d812b47a87ef9a4fe
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-XxeXdfB6.tmp/0/@angular/common/src/directives/ng_class.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

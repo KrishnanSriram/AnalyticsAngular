@@ -1,0 +1,5 @@
+XSym
+0137
+6bd79ba072fa57206c7358e69286d037
+/Users/krishnansriramrama/PrivateProjects/Angular2/HelloWorld/tmp/vendor-input_base_path-d5CmANL5.tmp/0/systemjs/dist/system-polyfills.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
