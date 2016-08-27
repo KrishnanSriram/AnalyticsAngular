@@ -14,6 +14,10 @@ var APP_ROUTES = [
         path: 'login',
         loadChildren: 'app/login/login.module#LoginModule'
     },
+    {
+        path: 'register',
+        loadChildren: 'app/register/register.module#RegisterModule'
+    },
 ];
 exports.appRoutingProviders = [
     http_1.Http,

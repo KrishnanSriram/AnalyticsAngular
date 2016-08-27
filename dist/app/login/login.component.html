@@ -1,26 +1,45 @@
-<div class="container middle">
-  <div class="row">
-    <div class="col12">
-      <h2>Login</h2>
-    </div>
-  </div>
+<div class="body body-s">
+  <form action="" id="sky-form" class="sky-form">
+    <header>Login form</header>
 
-  <div class="container row">
-    <div class="col col-md-7">
-      <form>
-        <div class="form-group">
-          <label for="email">Email address:</label>
-          <input type="email" class="form-control" id="email">
+    <fieldset>
+      <section>
+        <div class="row">
+          <label class="label col col-4">E-mail</label>
+          <div class="col col-8">
+            <label class="input">
+              <i class="icon-append fa fa-user"></i>
+              <input type="email" name="email">
+            </label>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd">
+      </section>
+
+      <section>
+        <div class="row">
+          <label class="label col col-4">Password</label>
+          <div class="col col-8">
+            <label class="input">
+              <i class="icon-append fa fa-lock"></i>
+              <input type="password" name="password">
+            </label>
+            <div class="note"><a href="#sky-form2" class="modal-opener">Forgot password?</a></div>
+          </div>
         </div>
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
+      </section>
+
+      <section>
+        <div class="row">
+          <div class="col col-4"></div>
+          <div class="col col-8">
+            <label class="checkbox"><input type="checkbox" name="remember" checked><i></i>Keep me logged in</label>
+          </div>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div>
-  </div>
+      </section>
+    </fieldset>
+    <footer>
+      <button type="submit" class="button">Log in</button>
+      <a href="#" class="button button-secondary">Register</a>
+    </footer>
+  </form>
 </div>

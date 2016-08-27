@@ -19,7 +19,6 @@ var RegisterComponent = (function () {
             moduleId: module.id,
             selector: 'app-register',
             templateUrl: 'register.component.html',
-            styleUrls: ['register.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], RegisterComponent);

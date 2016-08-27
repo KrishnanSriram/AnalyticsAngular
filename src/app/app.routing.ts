@@ -14,6 +14,10 @@ const APP_ROUTES:Routes = [
         path: 'login',
         loadChildren: 'app/login/login.module#LoginModule'
     },
+    {
+        path: 'register',
+        loadChildren: 'app/register/register.module#RegisterModule'
+    },
     // { path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 export const appRoutingProviders: any[] = [

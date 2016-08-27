@@ -1,8 +1,8 @@
-/* @override http://dev.supplement-illustre-du-petit-journal.com/assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css */
-
 /**/
 /* font */
 /**/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
 
 /**/
 /* defaults */
@@ -783,16 +783,16 @@
 .sky-form .checkbox.state-error i,
 .sky-form .toggle.state-error i,
 .sky-form .toggle.state-error input:checked + i {
-	background: #f1ead7;
+	background: #fff0f0;
 }
 .sky-form .state-error + em {
 	display: block;
 	margin-top: 6px;
 	padding: 0 1px;
-	
+	font-style: normal;
 	font-size: 11px;
 	line-height: 15px;
-	color: #e00000;
+	color: #ee9393;
 }
 .sky-form .rating.state-error + em {
 	margin-top: -4px;
@@ -811,7 +811,7 @@
 .sky-form .checkbox.state-success i,
 .sky-form .toggle.state-success i,
 .sky-form .toggle.state-success input:checked + i {
-	background: #fff;
+	background: #f0fff0;
 }
 .sky-form .state-success + em {
 	display: block;
@@ -820,7 +820,7 @@
 	font-style: normal;
 	font-size: 11px;
 	line-height: 15px;
-	color: #e00000;
+	color: #ee9393;
 }
 .sky-form .note-success {
 	color: #6fb679;
@@ -874,6 +874,7 @@
 .sky-form.submited .message {
 	display: block;
 	padding: 25px 30px;
+	background: rgba(255,255,255,.9);
 	font: 300 18px/27px 'Open Sans', Helvetica, Arial, sans-serif;
 	text-align: center;
 }
@@ -1009,7 +1010,6 @@
 /**/
 /* bootstrap compatibility */
 /**/
-/*
 .sky-form *,
 .sky-form *:after,
 .sky-form *:before {
@@ -1018,7 +1018,6 @@
 	box-sizing: content-box;
 	-moz-box-sizing: content-box;
 }
-*/
 .sky-form .label {
 	border-radius: 0;
 	font-size: 100%;
