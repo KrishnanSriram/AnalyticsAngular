@@ -9,7 +9,11 @@ const APP_ROUTES:Routes = [
         path: '',
         pathMatch: 'full',
         loadChildren: 'app/home.routing#HomeModule'
-    }
+    },
+    {
+        path: 'login',
+        loadChildren: 'app/login/login.module#LoginModule'
+    },
     // { path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 export const appRoutingProviders: any[] = [
