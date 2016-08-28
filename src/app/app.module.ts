@@ -10,6 +10,7 @@ import {routing, appRoutingProviders} from "./app.routing";
 import {HomeModule} from "./home/home.module";
 import {SharedModule} from "./shared/shared.module";
 import {RouterModule} from "@angular/router";
+import {UserService} from "./services/user.service";
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,7 +18,7 @@ import {RouterModule} from "@angular/router";
   providers: [{
     provide: APP_BASE_HREF,
     useValue: '/'
-  }],
+}, UserService],
 
   bootstrap:    [AppComponent],
 })
