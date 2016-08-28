@@ -12,12 +12,13 @@ var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var login_component_1 = require('./login.component');
 var login_routing_1 = require('./login.routing');
+var forms_1 = require("@angular/forms");
 var LoginModule = (function () {
     function LoginModule() {
     }
     LoginModule = __decorate([
         core_1.NgModule({
-            imports: [common_1.CommonModule, login_routing_1.routing],
+            imports: [common_1.CommonModule, login_routing_1.routing, forms_1.ReactiveFormsModule],
             declarations: [login_component_1.LoginComponent],
             // exports: [LoginComponent],
             bootstrap: [login_component_1.LoginComponent],

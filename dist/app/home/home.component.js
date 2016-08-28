@@ -9,21 +9,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-// import { NameListService } from '../shared/index';
+var user_service_1 = require("../services/user.service");
 /**
  * This class represents the lazy loaded HomeComponent.
  */
 var HomeComponent = (function () {
-    function HomeComponent() {
+    function HomeComponent(userService) {
+        this.userService = userService;
     }
-    HomeComponent.prototype.ngOnInit = function () { };
+    HomeComponent.prototype.ngOnInit = function () {
+        this.isAuthenticated = this.userService.isAuthenticated();
+        console.log('ngOnInit for HomeComponent invoked: ' + this.isAuthenticated);
+    };
+    HomeComponent.prototype.updateHomeComponentOnLogout = function (data) {
+        console.log('Logout on updateHomeComponentOnLogout');
+        this.isAuthenticated = false;
+    };
     HomeComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
             selector: 'pa-home',
             templateUrl: 'home.component.html',
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [user_service_1.UserService])
     ], HomeComponent);
     return HomeComponent;
 }());

@@ -9,13 +9,23 @@ import {User} from "./models/user";
 })
 export class AppComponent {
     title = '';
-
+    username = null;
     constructor(private userService: UserService) {
         userService.loginEvent.subscribe(
             (userInfo) => this.updateNavbarWithUserInfo(userInfo));
+        userService.logoutEvent.subscribe(
+            (data) => this.updateNavbarForLogout(data),
+            () => console.log("Logout from AppComponent")
+        )
     }
 
     updateNavbarWithUserInfo(userInfo: User) {
-        console.log(userInfo);
+        console.log("Received username in app component: " + userInfo.name);
+        this.username = "Krishnan";
     }
+
+    updateNavbarForLogout(data: any) {
+        this.username = null;
+    }
+
 }

@@ -15,10 +15,16 @@ var AppComponent = (function () {
         var _this = this;
         this.userService = userService;
         this.title = '';
+        this.username = null;
         userService.loginEvent.subscribe(function (userInfo) { return _this.updateNavbarWithUserInfo(userInfo); });
+        userService.logoutEvent.subscribe(function (data) { return _this.updateNavbarForLogout(data); }, function () { return console.log("Logout from AppComponent"); });
     }
     AppComponent.prototype.updateNavbarWithUserInfo = function (userInfo) {
-        console.log(userInfo);
+        console.log("Received username in app component: " + userInfo.name);
+        this.username = "Krishnan";
+    };
+    AppComponent.prototype.updateNavbarForLogout = function (data) {
+        this.username = null;
     };
     AppComponent = __decorate([
         core_1.Component({

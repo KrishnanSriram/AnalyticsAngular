@@ -15,11 +15,10 @@ import {UserService} from "./services/user.service";
 @NgModule({
   declarations: [AppComponent],
   imports:      [BrowserModule, HttpModule, HomeModule, routing,SharedModule],
-  providers: [{
+  providers: [UserService, {
     provide: APP_BASE_HREF,
     useValue: '/'
-}, UserService],
-
+}],
   bootstrap:    [AppComponent],
 })
 export class AppModule {}

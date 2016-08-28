@@ -15,8 +15,16 @@ var APP_ROUTES = [
         loadChildren: 'app/login/login.module#LoginModule'
     },
     {
+        path: 'logout',
+        loadChildren: 'app/logout/logout.module#LogoutModule'
+    },
+    {
         path: 'register',
         loadChildren: 'app/register/register.module#RegisterModule'
+    },
+    {
+        path: 'home',
+        loadChildren: 'app/home/home.module#HomeModule'
     },
 ];
 exports.appRoutingProviders = [

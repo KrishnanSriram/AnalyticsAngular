@@ -1,5 +1,5 @@
 <div class="body body-s">
-  <form action="" id="sky-form" class="sky-form">
+  <form action="" id="sky-form" class="sky-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <header>Login form</header>
 
     <fieldset>
@@ -9,7 +9,7 @@
           <div class="col col-8">
             <label class="input">
               <i class="icon-append fa fa-user"></i>
-              <input type="email" name="email">
+              <input type="email" name="email" formControlName="email">
             </label>
           </div>
         </div>
@@ -21,7 +21,7 @@
           <div class="col col-8">
             <label class="input">
               <i class="icon-append fa fa-lock"></i>
-              <input type="password" name="password">
+              <input type="password" name="password" formControlName="password">
             </label>
             <div class="note"><a href="#sky-form2" class="modal-opener">Forgot password?</a></div>
           </div>
@@ -38,7 +38,10 @@
       </section>
     </fieldset>
     <footer>
-      <button type="submit" class="button">Log in</button>
+      <button type="submit" class="button">
+        <!--<a [routerLink]="['/home']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">Log In</a>-->
+        LogIn
+      </button>
       <a href="#" class="button button-secondary">Register</a>
     </footer>
   </form>

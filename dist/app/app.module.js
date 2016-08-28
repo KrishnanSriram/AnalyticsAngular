@@ -27,10 +27,10 @@ var AppModule = (function () {
         core_1.NgModule({
             declarations: [app_component_1.AppComponent],
             imports: [platform_browser_1.BrowserModule, http_1.HttpModule, home_module_1.HomeModule, app_routing_1.routing, shared_module_1.SharedModule],
-            providers: [{
+            providers: [user_service_1.UserService, {
                     provide: common_1.APP_BASE_HREF,
                     useValue: '/'
-                }, user_service_1.UserService],
+                }],
             bootstrap: [app_component_1.AppComponent],
         }), 
         __metadata('design:paramtypes', [])
