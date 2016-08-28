@@ -52,6 +52,7 @@ const barrels: string[] = [
   'app/about',
   'app/contacts',
   'app/users',
+  'app/shared/topnavbar',
   /** @cli-barrel */
 ];
 
