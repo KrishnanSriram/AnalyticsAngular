@@ -20,8 +20,8 @@ export class LoginComponent implements OnInit {
         // password: FormControl = new FormControl('', Validators.required);
 
         this.loginForm = formBuilder.group({
-                'email': ['', Validators.required],
-                'password': ['', Validators.required]
+                'email': ['krishnan.sriram@hotmail.com', Validators.required],
+                'password': ['sdfgsdfgdsfg', Validators.required]
             }
         );
     }

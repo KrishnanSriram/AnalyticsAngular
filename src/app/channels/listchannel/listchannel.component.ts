@@ -12,14 +12,14 @@ export class ListChannelComponent implements OnInit {
     private channelItems: Channel[];
     private channelListError = null;
     private isLoading: boolean;
-    @Output() channelSelected: EventEmitter<Channel>;
+    @Output() channelSelected = new EventEmitter<Channel>();
 
     constructor(private channelService: ChannelService) {
         this.isLoading = false;
     }
 
     ngOnInit() {
-        this.channelSelected = new EventEmitter<Channel>();
+        // this.channelSelected = new EventEmitter<Channel>();
         this.getChannels();
     }
 
@@ -42,6 +42,7 @@ export class ListChannelComponent implements OnInit {
         let model = new Channel(channel.name, channel.description, channel.tags.join(', '), channel.isPrivate, channel.status);
         model._id = channel._id;
         model.rev = channel._rev;
+        this.channelSelected.emit(model);
         console.log('Channel selected event fired ListChannelComponent: ' + model.toJSON());
     }
 }

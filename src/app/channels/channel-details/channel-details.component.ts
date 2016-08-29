@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import {Channel} from "../channel";
 
 @Component({
   moduleId: module.id,
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChannelDetailsComponent implements OnInit {
 
+    @Input() selectedChannel: Channel;
   constructor() { }
 
   ngOnInit() {

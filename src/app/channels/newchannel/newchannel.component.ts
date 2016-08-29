@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 
 @Component({
-  moduleId: module.id,
-  selector: 'app-newchannel',
-  templateUrl: 'newchannel.component.html',
+    moduleId: module.id,
+    selector: 'app-newchannel',
+    templateUrl: 'newchannel.component.html',
 })
 export class NewchannelComponent implements OnInit {
 
-  constructor() { }
+    @Input() formid: string;
+    @Input() formtitle: string;
 
-  ngOnInit() {
-  }
+    constructor() {
+    }
+
+    ngOnInit() {
+    }
 
 }
