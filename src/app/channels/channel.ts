@@ -9,7 +9,7 @@ export class Channel {
     constructor(public name: string, public description: string, public tags: string, public isPrivate: boolean,
                 public status: string) {
         this.owner="Misko Hevery";
-        this.start_date = "2016-08-25";
+        this.start_date = Channel.todaysDate();
     }
 
     static fromJSON(obj): Channel {
@@ -38,5 +38,10 @@ export class Channel {
         }
 
         return "No";
+    }
+
+    static todaysDate(): string {
+        let date = new Date();
+        return date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
     }
 }

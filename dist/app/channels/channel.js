@@ -7,7 +7,7 @@ var Channel = (function () {
         this.isPrivate = isPrivate;
         this.status = status;
         this.owner = "Misko Hevery";
-        this.start_date = "2016-08-25";
+        this.start_date = Channel.todaysDate();
     }
     Channel.fromJSON = function (obj) {
         var channel = new Channel(obj.name, obj.description, obj.tags, obj.isPrivate, obj.status);
@@ -32,6 +32,10 @@ var Channel = (function () {
             return "Yes";
         }
         return "No";
+    };
+    Channel.todaysDate = function () {
+        var date = new Date();
+        return date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
     };
     return Channel;
 }());

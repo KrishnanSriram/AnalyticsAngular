@@ -1,50 +1,82 @@
 <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<style>
+    /* Add a dark gray background color to the modal header and center text */
+    .modal-header, h4, .close {
+        background-color: #333;
+        color: #fff !important;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .modal-header, .modal-body {
+        padding: 40px 50px;
+    }
+
+    .containercenter {
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+        justify-content: flex-end;
+        /* NOTE: Only works for non-floated block elements */
+        display: block;
+        float: none;
+    }
+</style>
 <div class="modal fade" id="newChannelDialog" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4><span class="glyphicon glyphicon-lock"></span> New channel</h4>
-      </div>
-      <div class="modal-body">
-        <form role="form">
-          <div class="form-group">
-            <label for="psw">Channel name</label>
-            <input type="number" class="form-control" id="psw" placeholder="Channel name">
-          </div>
-          <div class="form-group">
-            <label for="psw">Description</label>
-            <input type="number" class="form-control" id="psw" placeholder="Description">
-          </div>
-          <div class="form-group">
-            <label for="psw">Tags</label>
-            <input type="number" class="form-control" id="psw" placeholder="Tags for channel">
-          </div>
-          <div class="form-group">
-            <label for="psw">Status</label>
-            <input type="number" class="form-control" id="psw" placeholder="Status">
-          </div>
-          <div class="form-group">
-            <label for="psw">Private Channel</label>
-            <input type="number" class="form-control" id="psw" placeholder="">
-          </div>
-          <div class="form-group">
-            <label for="psw">Start date</label>
-            <input type="number" class="form-control" id="psw" placeholder="">
-          </div>
-          <button type="submit" class="btn btn-block">Create Channel
-            <span class="glyphicon glyphicon-ok"></span>
-          </button>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-          <span class="glyphicon glyphicon-remove"></span> Cancel
-        </button>
-        <p>Need <a href="#">help?</a></p>
-      </div>
+    <div class="body body-s">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4><span class="glyphicon glyphicon-lock"></span> New channel</h4>
+            </div>
+            <div class="modal-body">
+                <div *ngIf="addChannelStatus == false">
+                    <p class="bg-danger">{{addChannelErrorMessage}}</p>
+                </div>
+                <form role="form" [formGroup]="channelForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                        <label for="psw">Channel name</label>
+                        <input type="text" class="form-control" id="psw" placeholder="Channel name"
+                               formControlName="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="psw">Description</label>
+                        <input type="text" class="form-control" id="psw" placeholder="Description"
+                               formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="psw">Tags</label>
+                        <input type="text" class="form-control" id="psw" placeholder="Tags for channel"
+                               formControlName="tags">
+                    </div>
+                    <div class="form-group">
+                        <label for="psw">Status</label>
+                        <select name="status" id="status" formControlName="status">
+                            <option *ngFor="let choice of statusChoices" name="choice" id="choice">{{choice}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="psw">Private Channel</label>
+                        <input type="checkbox" name="isPrivate" value="private" formControlName="isPrivate" checked>
+                    </div>
+                    <div class="form-group">
+                        <label for="psw">Start date</label>
+                        <input type="text" class="form-control" id="psw" placeholder="" disabled
+                               formControlName="start_date">
+                    </div>
+                    <button type="submit" class="btn btn-block">Create Channel
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                    <span class="glyphicon glyphicon-remove"></span> Cancel
+                </button>
+                <p>Need <a href="#">help?</a></p>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

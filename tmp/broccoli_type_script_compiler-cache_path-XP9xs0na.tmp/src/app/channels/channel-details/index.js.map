@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../Users/krishnansriram/Projects/Javascript/Angular2/AnalyticsAngular/tmp/broccoli_type_script_compiler-input_base_path-S6DtceHJ.tmp/0/src/app/channels/channel-details/index.ts"],"names":[],"mappings":";;;;AAAA,iBAAc,6BAA6B,CAAC,EAAA","sourcesContent":["export * from './channel-details.component';\n"]}
