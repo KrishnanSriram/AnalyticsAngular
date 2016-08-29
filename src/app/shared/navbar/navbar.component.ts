@@ -1,4 +1,5 @@
 import {Component, OnInit, Input} from '@angular/core';
+import {NavbarItem} from "../navbaritem";
 
 @Component({
     moduleId: module.id,
@@ -31,10 +32,4 @@ export class NavbarComponent implements OnInit {
         ];
     }
 
-}
-
-class NavbarItem {
-    constructor(public link: string, public title: string) {
-
-    }
 }

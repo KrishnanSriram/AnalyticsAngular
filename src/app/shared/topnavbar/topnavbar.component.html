@@ -4,6 +4,7 @@
     .nav-tabs li a {
         color: #777;
     }
+
     /* Add a dark background color with a little bit see-through */
     .navbar {
         margin-bottom: 0;
@@ -11,7 +12,7 @@
         border: 0;
         font-size: 11px !important;
         letter-spacing: 4px;
-        opacity:0.9;
+        opacity: 0.9;
     }
 
     /* Add a gray color to all navbar links */
@@ -27,7 +28,7 @@
     /* The active link */
     .navbar-nav li.active a {
         color: #fff !important;
-        background-color:#29292c !important;
+        background-color: #29292c !important;
     }
 
     /* Remove border color from the collapsible button */
@@ -37,7 +38,7 @@
 
     /* Dropdown */
     .open .dropdown-toggle {
-        color: #fff ;
+        color: #fff;
         background-color: #555 !important;
     }
 
@@ -52,33 +53,36 @@
     }
 </style>
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div *ngIf="navbarusername == null">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#band">ABOUT</a></li>
+                    <li><a href="#tour">CONTACTS</a></li>
+                    <li><a routerLink="register">REGISTER</a></li>
+                    <li><a routerLink="login">LOGIN</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div *ngIf="navbarusername != null">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="home">HOME</a></li>
+                    <li><a href="#">{{navbarusername}}</a></li>
+                    <li><a routerLink="logout">LOGOUT</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#band">ABOUT</a></li>
-        <li><a href="#tour">CONTACTS</a></li>
-        <li><a routerLink = "register">REGISTER</a></li>
-        <li><a routerLink="login">LOGIN</a></li>
-        <!--<li class="dropdown">-->
-        <!--<a class="dropdown-toggle" data-toggle="dropdown" href="#">LOGIN-->
-        <!--<span class="caret"></span>-->
-        <!--</a>-->
-        <!--<ul class="dropdown-menu">-->
-        <!--<li><a href="#">New USER</a></li>-->
-        <!--<li><a href="#">SIGNIN</a></li>-->
-        <!--</ul>-->
-        <!--</li>-->
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
-    </div>
-  </div>
 </nav>
