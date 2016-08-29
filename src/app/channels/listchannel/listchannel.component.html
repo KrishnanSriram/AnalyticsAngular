@@ -1,0 +1,64 @@
+<style>
+    /* Add a dark gray background color to the modal header and center text */
+    .modal-header, h4, .close {
+        background-color: #333;
+        color: #fff !important;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .modal-header, .modal-body {
+        padding: 40px 50px;
+    }
+</style>
+<div class="body body-s">
+    <form action="" class="sky-form">
+        <header>
+            <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#newChannelDialog">
+                <span class="glyphicon glyphicon-plus"></span> Add
+            </button>
+            &nbsp;&nbsp;
+            <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-refresh"></span> Refresh
+            </button>
+        </header>
+
+        <fieldset>
+            <section>
+                <div>
+                    <p><a href="#">My Profile 1</a></p>
+                    <p>
+                        <small>
+                            With our online editor, you can edit the code, and click on a button to view the result
+                        </small>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p><a href="#">My Profile 2</a></p>
+                    <p>
+                        <small>
+                            With our online editor, you can edit the code, and click on a button to view the result
+                        </small>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <p><a href="#">My Profile 3</a></p>
+                    <p>
+                        <small>
+                            With our online editor, you can edit the code, and click on a button to view the result
+                        </small>
+                    </p>
+                </div>
+            </section>
+        </fieldset>
+        <!--<footer>-->
+            <!--<button type="submit" class="button">Submit a review</button>-->
+        <!--</footer>-->
+    </form>
+    <!--Add a new channel-->
+    <app-newchannel></app-newchannel>
+</div>

@@ -45,6 +45,9 @@ var barrels = [
     'app/contacts',
     'app/users',
     'app/shared/topnavbar',
+    'app/channels/newchannel',
+    'app/channels/listchannel',
+    'app/channels/channel-details',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {

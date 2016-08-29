@@ -11,7 +11,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var home_component_1 = require('./home.component');
-// import {ProvisioningService} from "../services/provisioning.service";
 var home_routes_1 = require('./home.routes');
 var HomeModule = (function () {
     function HomeModule() {

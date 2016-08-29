@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var user_service_1 = require("../services/user.service");
+var channels_component_1 = require("../channels/channels.component");
 /**
  * This class represents the lazy loaded HomeComponent.
  */
@@ -30,6 +31,7 @@ var HomeComponent = (function () {
             moduleId: module.id,
             selector: 'pa-home',
             templateUrl: 'home.component.html',
+            directives: [channels_component_1.ChannelsComponent]
         }), 
         __metadata('design:paramtypes', [user_service_1.UserService])
     ], HomeComponent);

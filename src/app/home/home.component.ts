@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {UserService} from "../services/user.service";
+import {ChannelsComponent} from "../channels/channels.component";
 
 /**
  * This class represents the lazy loaded HomeComponent.
@@ -8,6 +9,7 @@ import {UserService} from "../services/user.service";
     moduleId: module.id,
     selector: 'pa-home',
     templateUrl: 'home.component.html',
+    directives: [ChannelsComponent]
 
 })
 

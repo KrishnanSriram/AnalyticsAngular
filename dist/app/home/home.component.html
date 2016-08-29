@@ -10,6 +10,7 @@
     .navbar {
         font-family: Montserrat, sans-serif;
     }
+
     /* Overwrite default styles of h3 and h4 */
     h3, h4 {
         margin: 10px 0 30px 0;
@@ -17,9 +18,11 @@
         font-size: 20px;
         color: #111;
     }
+
     p {
         font-family: Montserrat, sans-serif;
     }
+
     /* Remove rounded borders on input fields */
     .form-control {
         border-radius: 0;
@@ -29,9 +32,11 @@
     textarea {
         resize: none;
     }
+
     .container {
         padding: 80px 80px;
     }
+
     .person {
         border: 10px solid transparent;
         margin-bottom: 25px;
@@ -39,9 +44,11 @@
         height: 80%;
         opacity: 0.7;
     }
+
     .person:hover {
         border-color: #f1f1f1;
     }
+
     .carousel-inner img {
         -webkit-filter: grayscale(90%);
         filter: grayscale(90%); /* make all photos black and white */
@@ -58,12 +65,20 @@
             display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
         }
     }
+
     .bg-1 {
         background: #2d2d30;
         color: #bdbdbd;
     }
-    .bg-1 h3 {color: #fff;}
-    .bg-1 p {font-style: italic;}
+
+    .bg-1 h3 {
+        color: #fff;
+    }
+
+    .bg-1 p {
+        font-style: italic;
+    }
+
     /* Remove rounded borders from list */
     .list-group-item:first-child {
         border-top-right-radius: 0;
@@ -102,6 +117,7 @@
         background-color: #fff;
         color: #000;
     }
+
     /* Add a dark gray background color to the modal header and center text */
     .modal-header, h4, .close {
         background-color: #333;
@@ -127,9 +143,9 @@
 </style>
 <!--Support for smooth scrolling-->
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         // Add smooth scrolling to all links in navbar + footer link
-        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+        $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
 
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
@@ -144,7 +160,7 @@
                 // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
-                }, 900, function(){
+                }, 900, function () {
 
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
@@ -154,299 +170,319 @@
     })
 </script>
 <!--If user is authenticated-->
-<div *ngIf="isAuthenticated == true">
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="#">Channels</a></li>
-        <li><a href="#">Users</a></li>
-        <li><a href="#">Questions</a></li>
-        <li><a href="#">Analytics</a></li>
-    </ul>
+<div *ngIf="isAuthenticated == false">
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#channels">Channels</a></li>
+            <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+            <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+        </ul>
 
-    <router-outlet></router-outlet>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <app-channels></app-channels>
+
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Menu 1</h3>
+                <p>Some content in menu 1.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Some content in menu 2.</p>
+            </div>
+        </div>
+
+        <!--<router-outlet></router-outlet>-->
+    </div>
 </div>
 <!--If user is NOT logged in-->
-<div class="container text-center" *ngIf="isAuthenticated == false">
-    <!--Headers-->
-    <h3>IBM Personal Analytics</h3>
-    <p>Get all analytics out of your life, promise to make your life better</p>
-    <p>Change the world around you..</p>
-    <br>
-    <!--Carousel-->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+<div *ngIf="isAuthenticated == true">
+    <div class="container text-center">
+        <!--Headers-->
+        <h3>IBM Personal Analytics</h3>
+        <p>Get all analytics out of your life, promise to make your life better</p>
+        <p>Change the world around you..</p>
+        <br>
+        <!--Carousel-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="./../../img/ny.jpg" alt="New York">
-                <div class="carousel-caption">
-                    <h3>New York</h3>
-                    <p>What's the election situation today?</p>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./../../img/ny.jpg" alt="New York">
+                    <div class="carousel-caption">
+                        <h3>New York</h3>
+                        <p>What's the election situation today?</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./../../img/chicago.jpg" alt="Chicago">
+                    <div class="carousel-caption">
+                        <h3>Chicago</h3>
+                        <p>How's the snow trating you?</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./../../img/la.jpg" alt="Los Angeles">
+                    <div class="carousel-caption">
+                        <h3>LA</h3>
+                        <p>We all know traffic here, what's the best time to take off to office?</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="item">
-                <img src="./../../img/chicago.jpg" alt="Chicago">
-                <div class="carousel-caption">
-                    <h3>Chicago</h3>
-                    <p>How's the snow trating you?</p>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--Circled images-->
+        <div class="row">
+            <div class="col-sm-4">
+                <p><strong>Food</strong></p><br>
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="./../../img/bandmember.jpg" class="img-circle person" alt="Random Name">
+                </a>
+                <div id="demo2" class="collapse">
+                    <p>Analyze your food habbits</p>
+                    <p>Check what's good for you</p>
+                    <p>Stay healthy and inspire all</p>
                 </div>
             </div>
-
-            <div class="item">
-                <img src="./../../img/la.jpg" alt="Los Angeles">
-                <div class="carousel-caption">
-                    <h3>LA</h3>
-                    <p>We all know traffic here, what's the best time to take off to office?</p>
+            <div class="col-sm-4">
+                <p><strong>Entertainment</strong></p><br>
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="./../../img/bandmember.jpg" class="img-circle person" alt="Random Name">
+                </a>
+                <div id="demo2" class="collapse">
+                    <p>Record your travel experiences</p>
+                    <p>Watch branded great movies in halls around you</p>
+                    <p>Play your favorite game like pro</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p><strong>Drinks</strong></p><br>
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="./../../img/bandmember.jpg" class="img-circle person" alt="Random Name">
+                </a>
+                <div id="demo2" class="collapse">
+                    <p>Find best bars around your place</p>
+                    <p>Check on your friends favorite bars</p>
+                    <p>Best drinks in your town....</p>
                 </div>
             </div>
         </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-    <!--Circled images-->
-    <div class="row">
-        <div class="col-sm-4">
-            <p><strong>Food</strong></p><br>
-            <a href="#demo2" data-toggle="collapse">
-                <img src="./../../img/bandmember.jpg" class="img-circle person" alt="Random Name">
-            </a>
-            <div id="demo2" class="collapse">
-                <p>Analyze your food habbits</p>
-                <p>Check what's good for you</p>
-                <p>Stay healthy and inspire all</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <p><strong>Entertainment</strong></p><br>
-            <a href="#demo2" data-toggle="collapse">
-                <img src="./../../img/bandmember.jpg" class="img-circle person" alt="Random Name">
-            </a>
-            <div id="demo2" class="collapse">
-                <p>Record your travel experiences</p>
-                <p>Watch branded great movies in halls around you</p>
-                <p>Play your favorite game like pro</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <p><strong>Drinks</strong></p><br>
-            <a href="#demo2" data-toggle="collapse">
-                <img src="./../../img/bandmember.jpg" class="img-circle person" alt="Random Name">
-            </a>
-            <div id="demo2" class="collapse">
-                <p>Find best bars around your place</p>
-                <p>Check on your friends favorite bars</p>
-                <p>Best drinks in your town....</p>
+    <!--Analytics container-->
+    <div class="bg-1">
+        <div class="container">
+            <h3 class="text-center">PERSONAL ANALYTICS</h3>
+            <p class="text-center">Want to know more about it?<br> Check our twitter page!</p>
+            <div class="text-left containercenter">
+                <ul class="list-group">
+                    <li class="list-group-item">Create Channels!<span class="badge">10004</span></li>
+                    <li class="list-group-item">Buy or Regsiter tags!<span class="badge">5000</span></li>
+                    <li class="list-group-item">Make questionaire's<span class="badge">10000000</span></li>
+                </ul>
             </div>
         </div>
     </div>
-</div>
-<!--Analytics container-->
-<div class="bg-1">
+    <!--Thumbnail Images to create channels tags and questionaires-->
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="./../../img/paris.jpg" alt="Paris">
+                <p><strong>Channels</strong></p>
+                <p>Create a public or private channel</p>
+                <button class="btn" data-toggle="modal" data-target="#channelModal">What's a Channel</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="./../../img/newyork.jpg" alt="New York">
+                <p><strong>Tags</strong></p>
+                <p>Own a tag</p>
+                <button class="btn" data-toggle="modal" data-target="#tagsModal">What's a Tag</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="./../../img/sanfran.jpg" alt="San Francisco">
+                <p><strong>Questionaire</strong></p>
+                <p>Create a questionaire that suits you</p>
+                <button class="btn" data-toggle="modal" data-target="#questionaireModal">What is a Questionaire?
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Contacts container-->
     <div class="container">
-        <h3 class="text-center">PERSONAL ANALYTICS</h3>
-        <p class="text-center">Want to know more about it?<br> Check our twitter page!</p>
-        <div class="text-left containercenter">
-            <ul class="list-group">
-                <li class="list-group-item">Create Channels!<span class="badge">10004</span></li>
-                <li class="list-group-item">Buy or Regsiter tags!<span class="badge">5000</span></li>
-                <li class="list-group-item">Make questionaire's<span class="badge">10000000</span></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!--Thumbnail Images to create channels tags and questionaires-->
-<div class="row text-center">
-    <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="./../../img/paris.jpg" alt="Paris">
-            <p><strong>Channels</strong></p>
-            <p>Create a public or private channel</p>
-            <button class="btn" data-toggle="modal" data-target="#channelModal" >What's a Channel</button>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="./../../img/newyork.jpg" alt="New York">
-            <p><strong>Tags</strong></p>
-            <p>Own a tag</p>
-            <button class="btn" data-toggle="modal" data-target="#tagsModal" >What's a Tag</button>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="./../../img/sanfran.jpg" alt="San Francisco">
-            <p><strong>Questionaire</strong></p>
-            <p>Create a questionaire that suits you</p>
-            <button class="btn" data-toggle="modal" data-target="#questionaireModal" >What is a Questionaire?</button>
-        </div>
-    </div>
-</div>
-<!--Contacts container-->
-<div class="container">
-    <h3 class="text-center">Contact</h3>
-    <p class="text-center"><em>We love our followers!</em></p>
-    <div class="row test">
-        <div class="col-md-4">
-            <p>Fan? Drop a note.</p>
-            <p><span class="glyphicon glyphicon-map-marker"></span>Columbus, US</p>
-            <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-            <p><span class="glyphicon glyphicon-envelope"></span>Email: persanalytics.us@ibm.com</p>
-        </div>
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                </div>
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                </div>
+        <h3 class="text-center">Contact</h3>
+        <p class="text-center"><em>We love our followers!</em></p>
+        <div class="row test">
+            <div class="col-md-4">
+                <p>Fan? Drop a note.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>Columbus, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email: persanalytics.us@ibm.com</p>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-            <br>
-            <div class="row">
-                <div class="col-md-12 form-group">
-                    <button class="btn pull-right" type="submit">Send</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Tab from BLOGs-->
-    <h3 class="text-center">From The Blog</h3>
-    <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#home">Jerry</a></li>
-        <li><a data-toggle="tab" href="#menu1">Elaine</a></li>
-        <li><a data-toggle="tab" href="#menu2">George</a></li>
-    </ul>
-
-    <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-            <h2>Jerry Sienfield, Sales Manager</h2>
-            <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-        </div>
-        <div id="menu1" class="tab-pane fade">
-            <h2>Elaine Benes, Guitarist</h2>
-            <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-        </div>
-        <div id="menu2" class="tab-pane fade">
-            <h2>George Costanzo, Baseball player</h2>
-            <p>I mean, sometimes I enjoy the game, but other times I enjoy other things.</p>
-        </div>
-    </div>
-    <!--Navbar-->
-</div>
-<!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
-            </div>
-            <div class="modal-body">
-                <form role="form">
-                    <div class="form-group">
-                        <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-                        <input type="number" class="form-control" id="psw" placeholder="How many?">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
                     </div>
-                    <div class="form-group">
-                        <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-                        <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
                     </div>
-                    <button type="submit" class="btn btn-block">Pay
-                        <span class="glyphicon glyphicon-ok"></span>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <button class="btn pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Tab from BLOGs-->
+        <h3 class="text-center">From The Blog</h3>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Jerry</a></li>
+            <li><a data-toggle="tab" href="#menu1">Elaine</a></li>
+            <li><a data-toggle="tab" href="#menu2">George</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h2>Jerry Sienfield, Sales Manager</h2>
+                <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h2>Elaine Benes, Guitarist</h2>
+                <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h2>George Costanzo, Baseball player</h2>
+                <p>I mean, sometimes I enjoy the game, but other times I enjoy other things.</p>
+            </div>
+        </div>
+        <!--Navbar-->
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per
+                                person</label>
+                            <input type="number" class="form-control" id="psw" placeholder="How many?">
+                        </div>
+                        <div class="form-group">
+                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-block">Pay
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
                     </button>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-                    <span class="glyphicon glyphicon-remove"></span> Cancel
-                </button>
-                <p>Need <a href="#">help?</a></p>
+                    <p>Need <a href="#">help?</a></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--Modal for Channel-->
-<!-- Modal -->
-<div class="modal fade" id="channelModal" role="dialog">
-    <div class="modal-dialog">
+    <!--Modal for Channel-->
+    <!-- Modal -->
+    <div class="modal fade" id="channelModal" role="dialog">
+        <div class="modal-dialog">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4><span class="glyphicon glyphicon-lock"></span> Channels</h4>
-            </div>
-            <div class="modal-body">
-                <p>Channels are interest areas for people</p>
-            </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-                    <span class="glyphicon glyphicon-remove"></span> Cancel
-                </button>
-                <p>Need <a href="#">help?</a></p>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Channels</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Channels are interest areas for people</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                    <p>Need <a href="#">help?</a></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--Modal for Tag-->
-<!-- Modal -->
-<div class="modal fade" id="tagsModal" role="dialog">
-    <div class="modal-dialog">
+    <!--Modal for Tag-->
+    <!-- Modal -->
+    <div class="modal fade" id="tagsModal" role="dialog">
+        <div class="modal-dialog">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4><span class="glyphicon glyphicon-lock"></span> Tags</h4>
-            </div>
-            <div class="modal-body">
-                <p>Tags are ways channels are classified for easier identification and reach</p>
-            </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-                    <span class="glyphicon glyphicon-remove"></span> Cancel
-                </button>
-                <p>Need <a href="#">help?</a></p>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Tags</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Tags are ways channels are classified for easier identification and reach</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                    <p>Need <a href="#">help?</a></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--Modal for Questionaire-->
-<!-- Modal -->
-<div class="modal fade" id="questionaireModal" role="dialog">
-    <div class="modal-dialog">
+    <!--Modal for Questionaire-->
+    <!-- Modal -->
+    <div class="modal fade" id="questionaireModal" role="dialog">
+        <div class="modal-dialog">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4><span class="glyphicon glyphicon-lock"></span> Questionaire</h4>
-            </div>
-            <div class="modal-body">
-                <p>Questionaire is a list of questions</p>
-            </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-                    <span class="glyphicon glyphicon-remove"></span> Cancel
-                </button>
-                <p>Need <a href="#">help?</a></p>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Questionaire</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Questionaire is a list of questions</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                    <p>Need <a href="#">help?</a></p>
+                </div>
             </div>
         </div>
     </div>

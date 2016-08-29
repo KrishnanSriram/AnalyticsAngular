@@ -9,6 +9,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var newchannel_component_1 = require("./newchannel/newchannel.component");
+var listchannel_component_1 = require("./listchannel/listchannel.component");
+var channel_details_component_1 = require("./channel-details/channel-details.component");
 var ChannelsComponent = (function () {
     function ChannelsComponent() {
     }
@@ -19,6 +22,7 @@ var ChannelsComponent = (function () {
             moduleId: module.id,
             selector: 'app-channels',
             templateUrl: 'channels.component.html',
+            directives: [channel_details_component_1.ChannelDetailsComponent, newchannel_component_1.NewchannelComponent, listchannel_component_1.ListchannelComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], ChannelsComponent);
