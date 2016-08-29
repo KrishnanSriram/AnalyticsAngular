@@ -170,7 +170,7 @@
     })
 </script>
 <!--If user is authenticated-->
-<div *ngIf="isAuthenticated == false">
+<div *ngIf="isAuthenticated == true">
     <div class="container">
         <ul class="nav nav-tabs">
             <li class="active"><a data-toggle="tab" href="#channels">Channels</a></li>
@@ -197,7 +197,7 @@
     </div>
 </div>
 <!--If user is NOT logged in-->
-<div *ngIf="isAuthenticated == true">
+<div *ngIf="isAuthenticated == false">
     <div class="container text-center">
         <!--Headers-->
         <h3>IBM Personal Analytics</h3>
