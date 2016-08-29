@@ -18,40 +18,29 @@
                 <span class="glyphicon glyphicon-plus"></span> Add
             </button>
             &nbsp;&nbsp;
-            <button type="button" class="btn btn-default btn-sm">
+            <button type="button" class="btn btn-default btn-sm" (click)="onRefresh()">
                 <span class="glyphicon glyphicon-refresh"></span> Refresh
             </button>
         </header>
 
+        <fieldset *ngIf="this.isLoading == true">
+            <section>
+                <h3>
+                    Loading.......<span class="glyphicon glyphicon-refresh"></span>
+                </h3>
+            </section>
+        </fieldset>
+
         <fieldset>
-            <section>
+            <section *ngFor="let channel of channelItems">
                 <div>
-                    <p><a href="#">My Profile 1</a></p>
+                    <p><a href="#" (click)="onSelected(channel)">{{channel.name}}</a></p>
                     <p>
                         <small>
-                            With our online editor, you can edit the code, and click on a button to view the result
+                            {{channel.description}}
                         </small>
                     </p>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <p><a href="#">My Profile 2</a></p>
-                    <p>
-                        <small>
-                            With our online editor, you can edit the code, and click on a button to view the result
-                        </small>
-                    </p>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <p><a href="#">My Profile 3</a></p>
-                    <p>
-                        <small>
-                            With our online editor, you can edit the code, and click on a button to view the result
-                        </small>
-                    </p>
+                    <hr />
                 </div>
             </section>
         </fieldset>
