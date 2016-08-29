@@ -32,7 +32,7 @@
         <h4><span class="glyphicon glyphicon-lock"></span> New channel</h4>
       </div>
       <div class="modal-body">
-        <form role="form">
+        <form role="form" #nwForm="ngForm" (ngSubmit)="onSubmit(nwForm)">
           <div class="form-group">
             <label for="psw">Channel name</label>
             <input type="number" class="form-control" id="psw" placeholder="Channel name">
