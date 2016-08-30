@@ -10,8 +10,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var channel_1 = require("../channel");
+var channelservice_service_1 = require("../channelservice.service");
 var ChannelDetailsComponent = (function () {
-    function ChannelDetailsComponent() {
+    function ChannelDetailsComponent(channelService) {
+        this.channelService = channelService;
         console.log('ChannelDetailsComponent constructor');
         console.dir(this.selectedchannel);
         this.editChannelDialogId = "editChannelDialog";
@@ -19,6 +21,26 @@ var ChannelDetailsComponent = (function () {
         this.editChannelModalSubmitButtonTitle = "Update Channel";
     }
     ChannelDetailsComponent.prototype.ngOnInit = function () {
+    };
+    ChannelDetailsComponent.prototype.onDelete = function () {
+        var _this = this;
+        if (this.selectedchannel == null) {
+            alert("Please select a channcel to delete");
+            return;
+        }
+        if (this.selectedchannel.isNewChannel()) {
+            alert('Cannot delete channel');
+        }
+        this.channelService.deleteChannel(this.selectedchannel).subscribe(function (data) { return _this.confirmDelete(data); }, function (err) { return _this.handleError(err); }, function () { return console.log('Completed Delete Channel action'); });
+    };
+    ChannelDetailsComponent.prototype.confirmDelete = function (data) {
+        console.dir(data);
+        this.selectedchannel = null;
+    };
+    ChannelDetailsComponent.prototype.handleError = function (err) {
+        var message = 'Failed to remove channel information. Please try again later';
+        message += 'ERROR: ' + err.description;
+        alert(message);
     };
     __decorate([
         core_1.Input(), 
@@ -30,7 +52,7 @@ var ChannelDetailsComponent = (function () {
             selector: 'app-channel-details',
             templateUrl: 'channel-details.component.html',
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [channelservice_service_1.ChannelService])
     ], ChannelDetailsComponent);
     return ChannelDetailsComponent;
 }());

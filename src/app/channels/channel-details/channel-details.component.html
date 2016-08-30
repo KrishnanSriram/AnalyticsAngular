@@ -12,11 +12,13 @@
             <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#editChannelDialog">
                 <span class="glyphicon glyphicon-pencil"></span> Edit
             </button>&nbsp;
-            <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#">
+            <button type="button" class="btn btn-default btn-sm" (click)="onDelete()">
                 <span class="glyphicon glyphicon-floppy-remove"></span> Delete
             </button>
         </header>
-
+        <div *ngIf="selectedchannel == null">
+            <h2><small class="text-info">Please select a channel, to continue</small></h2>
+        </div>
         <fieldset>
             <section>
                 <div class="row">
@@ -86,8 +88,5 @@
         <app-newchannel [formid]='editChannelDialogId' [formtitle]="editChannelModalTitle"
                         [formsubmitbuttontitle]="editChannelModalSubmitButtonTitle"
                         [channel]='selectedchannel'></app-newchannel>
-    </div>
-    <div *ngIf="selectedchannel == null">
-        <h2><small>Please select a channel, to continue</small></h2>
     </div>
 </div>

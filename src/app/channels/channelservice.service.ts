@@ -64,8 +64,11 @@ export class ChannelService {
     }
 
     deleteChannel(channel: Channel) {
-        console.log("deleteChannel")
-        // this should return an observable
+        console.log("deleteChannel in Channel")
+        let url = this.CHANNEL_LIST + "/" + channel._id;
+        return this.http.delete(url)
+            .map(res => res.json())
+            .catch(this.handleError);
     }
 
     findChannel() {

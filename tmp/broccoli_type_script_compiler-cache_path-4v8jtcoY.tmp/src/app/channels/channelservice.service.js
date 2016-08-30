@@ -63,8 +63,11 @@ var ChannelService = (function () {
             .catch(this.handleError);
     };
     ChannelService.prototype.deleteChannel = function (channel) {
-        console.log("deleteChannel");
-        // this should return an observable
+        console.log("deleteChannel in Channel");
+        var url = this.CHANNEL_LIST + "/" + channel._id;
+        return this.http.delete(url)
+            .map(function (res) { return res.json(); })
+            .catch(this.handleError);
     };
     ChannelService.prototype.findChannel = function () {
         console.log("getChannelList");
