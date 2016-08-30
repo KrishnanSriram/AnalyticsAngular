@@ -26,6 +26,9 @@ var Channel = (function () {
         };
     };
     Channel.prototype.isPrivateDisplayValue = function () {
+        if (this.isPrivate == null || this.isPrivate == undefined) {
+            return "No";
+        }
         if (this.isPrivate == true) {
             return "Yes";
         }

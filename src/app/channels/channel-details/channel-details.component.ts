@@ -6,27 +6,21 @@ import {Channel} from "../channel";
     selector: 'app-channel-details',
     templateUrl: 'channel-details.component.html',
 })
-export class ChannelDetailsComponent implements OnInit, OnChanges {
+export class ChannelDetailsComponent implements OnInit {
 
-    @Input() selectedChannel: Channel;
+    @Input() selectedchannel: Channel;
     private editChannelDialogId: string;
     private editChannelModalTitle: string;
     private editChannelModalSubmitButtonTitle: string;
 
     constructor() {
         console.log('ChannelDetailsComponent constructor');
-        console.dir(this.selectedChannel);
+        console.dir(this.selectedchannel);
         this.editChannelDialogId = "editChannelDialog";
         this.editChannelModalTitle = "Edit Channel";
         this.editChannelModalSubmitButtonTitle = "Update Channel";
     }
 
     ngOnInit() {
-    }
-
-
-    ngOnChanges() {
-        console.log('Selected Channel: ');
-        console.dir(this.selectedChannel);
     }
 }

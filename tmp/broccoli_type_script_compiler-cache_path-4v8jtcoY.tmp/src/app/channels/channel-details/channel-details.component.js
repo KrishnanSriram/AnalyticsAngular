@@ -13,21 +13,17 @@ var channel_1 = require("../channel");
 var ChannelDetailsComponent = (function () {
     function ChannelDetailsComponent() {
         console.log('ChannelDetailsComponent constructor');
-        console.dir(this.selectedChannel);
+        console.dir(this.selectedchannel);
         this.editChannelDialogId = "editChannelDialog";
         this.editChannelModalTitle = "Edit Channel";
         this.editChannelModalSubmitButtonTitle = "Update Channel";
     }
     ChannelDetailsComponent.prototype.ngOnInit = function () {
     };
-    ChannelDetailsComponent.prototype.ngOnChanges = function () {
-        console.log('Selected Channel: ');
-        console.dir(this.selectedChannel);
-    };
     __decorate([
         core_1.Input(), 
         __metadata('design:type', channel_1.Channel)
-    ], ChannelDetailsComponent.prototype, "selectedChannel", void 0);
+    ], ChannelDetailsComponent.prototype, "selectedchannel", void 0);
     ChannelDetailsComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

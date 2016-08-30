@@ -56,6 +56,8 @@ var ChannelService = (function () {
         console.log("updateChannel in Channel");
         var url = this.CHANNEL_LIST + "/" + channel._id;
         var channelJSON = channel.toJSON();
+        console.log('UpdateChannel JSON: ');
+        console.dir(channelJSON);
         return this.http.put(url, channelJSON)
             .map(function (res) { return res.json(); })
             .catch(this.handleError);

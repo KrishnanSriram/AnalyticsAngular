@@ -31,6 +31,10 @@ export class Channel {
     }
 
     isPrivateDisplayValue(): string {
+        if(this.isPrivate == null || this.isPrivate == undefined) {
+            return "No";
+        }
+
         if(this.isPrivate == true) {
             return "Yes";
         }

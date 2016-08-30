@@ -22,7 +22,7 @@
                 <div class="row">
                     <label class="label col col-4">Name</label>
                     <div class="label col col-8">
-                        <p>{{selectedChannel?.name}}</p>
+                        <p>{{selectedchannel?.name}}</p>
                     </div>
                 </div>
             </section>
@@ -32,7 +32,7 @@
                 <div class="row">
                     <label class="label col col-4">Description</label>
                     <div class="label col col-8">
-                        <p>{{selectedChannel?.description}}</p>
+                        <p>{{selectedchannel?.description}}</p>
                     </div>
                 </div>
             </section>
@@ -42,7 +42,7 @@
                 <div class="row">
                     <label class="label col col-4">Tags</label>
                     <div class="label col col-8">
-                        <p>{{selectedChannel?.tags}}</p>
+                        <p>{{selectedchannel?.tags}}</p>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@
                 <div class="row">
                     <label class="label col col-4">Status</label>
                     <div class="label col col-8">
-                        <p>{{selectedChannel?.status}}</p>
+                        <p>{{selectedchannel?.status}}</p>
                     </div>
                 </div>
             </section>
@@ -62,7 +62,7 @@
                 <div class="row">
                     <label class="label col col-4">Private Channel</label>
                     <div class="label col col-8">
-                        <p>{{selectedChannel?.isPrivateDisplayValue()}}</p>
+                        <p>{{selectedchannel?.isPrivateDisplayValue()}}</p>
                     </div>
                 </div>
             </section>
@@ -72,7 +72,7 @@
                 <div class="row">
                     <label class="label col col-4">Start date</label>
                     <div class="label col col-8">
-                        <p>{{selectedChannel?.start_date}}</p>
+                        <p>{{selectedchannel?.start_date}}</p>
                     </div>
                 </div>
             </section>
@@ -82,7 +82,12 @@
             <!--<button type="submit" class="button">Submit a review</button>-->
         <!--</footer>-->
     </form>
-    <app-newchannel [formid]='editChannelDialogId' [formtitle]="editChannelModalTitle"
-                    [formsubmitbuttontitle]="editChannelModalSubmitButtonTitle"
-                    [channel]="selectedChannel"></app-newchannel>
+    <div *ngIf="selectedchannel != null">
+        <app-newchannel [formid]='editChannelDialogId' [formtitle]="editChannelModalTitle"
+                        [formsubmitbuttontitle]="editChannelModalSubmitButtonTitle"
+                        [channel]='selectedchannel'></app-newchannel>
+    </div>
+    <div *ngIf="selectedchannel == null">
+        <h2><small>Please select a channel, to continue</small></h2>
+    </div>
 </div>

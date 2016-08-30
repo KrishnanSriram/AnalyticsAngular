@@ -37,33 +37,33 @@
                 </div>
                 <form role="form" [formGroup]="channelForm" (ngSubmit)="onSubmit()">
                     <div class="form-group">
-                        <label for="psw">Channel name</label>
-                        <input type="text" class="form-control" id="psw" placeholder="Channel name"
+                        <label for="chName">Channel name</label>
+                        <input type="text" class="form-control" id="chName" placeholder="Channel name"
                                formControlName="name">
                     </div>
                     <div class="form-group">
-                        <label for="psw">Description</label>
-                        <input type="text" class="form-control" id="psw" placeholder="Description"
+                        <label for="chDescription">Description</label>
+                        <input type="text" class="form-control" id="chDescription" placeholder="Description"
                                formControlName="description">
                     </div>
                     <div class="form-group">
-                        <label for="psw">Tags</label>
-                        <input type="text" class="form-control" id="psw" placeholder="Tags for channel"
+                        <label for="chTags">Tags</label>
+                        <input type="text" class="form-control" id="chTags" placeholder="Tags for channel"
                                formControlName="tags">
                     </div>
                     <div class="form-group">
-                        <label for="psw">Status</label>
-                        <select name="status" id="status" formControlName="status">
+                        <label for="chStatus">Status</label>
+                        <select name="status" id="chStatus" formControlName="status">
                             <option *ngFor="let choice of statusChoices" name="choice" id="choice">{{choice}}</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="psw">Private Channel</label>
-                        <input type="checkbox" value=true formControlName="isPrivate" checked>
+                        <label for="chIsPrivate">Private Channel</label>
+                        <input type="checkbox" value=true id="chIsPrivate" formControlName="isPrivate" checked>
                     </div>
                     <div class="form-group">
-                        <label for="psw">Start date</label>
-                        <input type="text" class="form-control" id="psw" placeholder="" disabled
+                        <label for="chStart_date">Start date</label>
+                        <input type="text" class="form-control" id="chStart_date" placeholder="" disabled
                                formControlName="start_date">
                     </div>
                     <button type="submit" class="btn btn-block">{{formsubmitbuttontitle}}

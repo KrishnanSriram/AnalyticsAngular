@@ -15,6 +15,7 @@ export class ChannelFormComponent implements OnInit, OnChanges {
     @Input() formtitle: string;
     @Input() formsubmitbuttontitle: string;
     @Input() channel: Channel;
+    channelData: Channel = null;
 
     channelForm: FormGroup;
     private statusChoices:string[];
@@ -27,22 +28,8 @@ export class ChannelFormComponent implements OnInit, OnChanges {
         console.log("NewChannelDialog instantiated: " + formBuilder);
         this.statusChoices = ['', 'Open', 'Close'];
         this.addChannelStatus = true;
-        this.channelForm = this.formBuilder.group({
-            'name':['', Validators.required],
-            'description':['', Validators.required],
-            'tags': ['', Validators.required],
-            'status':['', Validators.required],
-            'start_date':[Channel.todaysDate(), Validators.required],
-            'isPrivate': [true, Validators.required]
-        });
-    }
-
-    ngOnInit() {
-    }
-
-    ngOnChanges() {
-        console.log('onChanges in ChannelFormComponent');
-        if(this.channel != null) {
+        if(this.channel == null) {
+            this.channel = new Channel('','','',true, 'Open');
             this.channelForm = this.formBuilder.group({
                 'name':[this.channel.name, Validators.required],
                 'description':[this.channel.description, Validators.required],
@@ -51,6 +38,34 @@ export class ChannelFormComponent implements OnInit, OnChanges {
                 'start_date':[Channel.todaysDate(), Validators.required],
                 'isPrivate': [this.channel.isPrivate, Validators.required]
             });
+        }
+
+    }
+
+    ngOnInit() {
+    }
+
+    ngOnChanges() {
+        console.log('onChanges in ChannelFormComponent');
+        this.channelData = this.channel;
+        if(this.channelData != null) {
+            console.log("ID is: " + this.channelData._id);
+                if(this.channel.status == null) {
+                    console.log('Updated Status');
+                    this.channel.status = "Open";
+                }
+                if(this.channel.isPrivate == null) {
+                    this.channel.isPrivate = false;
+                    console.log('Updated isPrivate');
+                }
+            this.channelForm = this.formBuilder.group({
+                'name':[this.channel.name, Validators.required],
+                'description':[this.channel.description, Validators.required],
+                'tags': [this.channel.tags, Validators.required],
+                'status':[this.channel.status, Validators.required],
+                'start_date':[Channel.todaysDate(), Validators.required],
+                'isPrivate': [this.channel.isPrivate, Validators.required]
+            })
         }
     }
 
@@ -71,7 +86,17 @@ export class ChannelFormComponent implements OnInit, OnChanges {
                 () => console.log('Completed addNewChannel service request')
             );
         } else {
-            // update existing channel
+            // update existing channel. Do not create new Channel instance. If we do, then that will be
+            // treated as an insert operation
+            console.log('Update new Channel information');
+            this.channel.name = name;
+            this.channel.description = description;
+            this.channel.tags = tags;
+            this.channel.status = status;
+            this.channel.isPrivate = isPrivate;
+            this.channel.start_date = start_date;
+            console.dir(this.channel);
+
             this.channelService.updateChannel(this.channel).subscribe(
                 (data) => this.addSuccess(data),
                 (err) => this.handleServiceError(err),
