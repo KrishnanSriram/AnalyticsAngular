@@ -12,10 +12,17 @@ export class ListChannelComponent implements OnInit {
     private channelItems: Channel[];
     private channelListError = null;
     private isLoading: boolean;
+    private newChannelModalID: string;
+    private newChannelModalTitle: string;
+    private newChannelModalSubmitButtonTitle: string;
+
     @Output() channelSelected = new EventEmitter<Channel>();
 
     constructor(private channelService: ChannelService) {
         this.isLoading = false;
+        this.newChannelModalID = "newChannelDialog";
+        this.newChannelModalTitle = "New Channel";
+        this.newChannelModalSubmitButtonTitle = "Create Channel";
     }
 
     ngOnInit() {

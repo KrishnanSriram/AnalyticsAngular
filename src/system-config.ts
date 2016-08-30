@@ -53,7 +53,7 @@ const barrels: string[] = [
   'app/contacts',
   'app/users',
   'app/shared/topnavbar',
-  'app/channels/newchannel',
+  'app/channels/channelform',
   'app/channels/listchannel',
   'app/channels/channel-details',
   /** @cli-barrel */

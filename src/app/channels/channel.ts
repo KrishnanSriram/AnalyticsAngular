@@ -42,4 +42,12 @@ export class Channel {
         let date = new Date();
         return date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate();
     }
+
+    isNewChannel(): boolean {
+        if(this._id == null || this._id.length <= 0) {
+            return true;
+        }
+
+        return false;
+    }
 }
