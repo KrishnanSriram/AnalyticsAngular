@@ -41,7 +41,7 @@ export class ChannelService {
   addNewChannel(channel: Channel): Observable<any> {
     console.log("addNewChannel for new channel");
     var channelJSON = channel.toJSON();
-    console.dir(channelJSON);
+    console.log(channelJSON);
     return this.http.post(this.CHANNEL_LIST, channelJSON)
         .map(res => res.json())
         .catch(this.handleError);

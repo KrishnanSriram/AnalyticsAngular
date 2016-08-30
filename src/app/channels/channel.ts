@@ -22,13 +22,11 @@ export class Channel {
     toJSON() {
         console.log('Number of tags: ' + this.tags.split(',').length);
         return {
-            name: this.name,
-            owner: this.owner,
-            description: this.description,
-            tags: this.tags.split(','),
-            private: this.isPrivate,
-            status: this.status,
-            start_date: this.start_date
+            "name": this.name,
+            "owner": this.owner,
+            "description": this.description,
+            "tags": this.tags.split(','),
+            "private": this.isPrivate,
         };
     }
 
