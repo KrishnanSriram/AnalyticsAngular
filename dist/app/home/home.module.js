@@ -18,7 +18,7 @@ var HomeModule = (function () {
     }
     HomeModule = __decorate([
         core_1.NgModule({
-            imports: [common_1.CommonModule, forms_1.FormsModule, forms_1.ReactiveFormsModule, home_routes_1.routing],
+            imports: [common_1.CommonModule, forms_1.ReactiveFormsModule, home_routes_1.routing],
             declarations: [home_component_1.HomeComponent],
             exports: [home_component_1.HomeComponent],
             bootstrap: [home_component_1.HomeComponent],

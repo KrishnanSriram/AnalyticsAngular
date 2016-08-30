@@ -14,7 +14,7 @@ import {UserService} from "./services/user.service";
 
 @NgModule({
   declarations: [AppComponent],
-  imports:      [BrowserModule, HttpModule, HomeModule, routing,SharedModule],
+  imports:      [BrowserModule, HttpModule, HomeModule, routing, SharedModule],
   providers: [UserService, {
     provide: APP_BASE_HREF,
     useValue: '/'
